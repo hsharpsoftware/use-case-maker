@@ -2,11 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseMaker", "UseCaseMaker\UseCaseMaker.csproj", "{EC53BDAF-DAA0-4739-872B-2D3CC8B77B03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseMakerApp", "src\UseCaseMakerApp\UseCaseMakerApp.csproj", "{EC53BDAF-DAA0-4739-872B-2D3CC8B77B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseMakerControls", "UseCaseMakerControls\UseCaseMakerControls.csproj", "{08BAF1B1-10D0-4426-BC09-C56C98AA5A6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseMakerControls", "src\UseCaseMakerControls\UseCaseMakerControls.csproj", "{08BAF1B1-10D0-4426-BC09-C56C98AA5A6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseMakerLibrary", "UseCaseMakerLibrary\UseCaseMakerLibrary.csproj", "{2706309F-76DA-4C66-8E78-8165D570B166}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseMakerLibrary", "src\UseCaseMakerLibrary\UseCaseMakerLibrary.csproj", "{2706309F-76DA-4C66-8E78-8165D570B166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
