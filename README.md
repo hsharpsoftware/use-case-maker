@@ -1,2 +1,4 @@
 # use-case-maker
-Port of http://use-case-maker.sourceforge.net/index.html
+Clone of [Use Case Maker SourceForge repository](http://use-case-maker.sourceforge.net/index.html)
+
+(C) Copyright [Gabriele Gaspardis](https://sourceforge.net/u/gaspardis/profile/)
