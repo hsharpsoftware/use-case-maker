@@ -1,0 +1,25 @@
+type project
+title
+    UseCaseMaker
+owners
+    davidpodhola
+authors 
+    davidpodhola
+projectUrl
+    https://github.com/HSharpSoftware/use-case-maker
+iconUrl
+    https://raw.githubusercontent.com/HSharpSoftware/use-case-maker/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/HSharpSoftware/use-case-maker/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    case,use-case,uml
+summary
+    C.A.S.E. tool that helps software developers to write organized use cases and to maintain related requirements
+description
+    C.A.S.E. tool that helps software developers to write organized use cases and to maintain related requirements
+
+
