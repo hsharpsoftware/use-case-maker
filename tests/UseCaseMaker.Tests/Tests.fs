@@ -1,6 +1,6 @@
-﻿module FSharp.ProjectScaffold.Tests
+module UseCaseMaker.Tests
 
-open FSharp.ProjectTemplate
+open UseCaseMaker
 open NUnit.Framework
 
 [<Test>]

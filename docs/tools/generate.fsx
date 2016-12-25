@@ -11,17 +11,17 @@
 // (This is the original behaviour of ProjectScaffold prior to multi project support)
 let referenceBinaries = []
 // Web site location for the generated documentation
-let website = "/##ProjectName##"
+let website = "/UseCaseMaker"
 
-let githubLink = "##GitUrl##/##GitHome##/##GitName##"
+let githubLink = "https://github.com/HSharpSoftware/use-case-maker"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "##ProjectName##"
-    "project-author", "##Author##"
-    "project-summary", "##Summary##"
+  [ "project-name", "UseCaseMaker"
+    "project-author", "davidpodhola"
+    "project-summary", "C.A.S.E. tool that helps software developers to write organized use cases and to maintain related requirements"
     "project-github", githubLink
-    "project-nuget", "http://nuget.org/packages/##ProjectName##" ]
+    "project-nuget", "http://nuget.org/packages/UseCaseMaker" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below

@@ -1,4 +1,4 @@
-﻿namespace FSharp.ProjectTemplate
+namespace UseCaseMaker
 
 /// Documentation for my library
 ///

@@ -28,24 +28,24 @@ open SourceLink
 
 // The name of the project
 // (used by attributes in AssemblyInfo, name of a NuGet package and directory in 'src')
-let project = "##ProjectName##"
+let project = "UseCaseMaker"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
-let summary = "##Summary##"
+let summary = "C.A.S.E. tool that helps software developers to write organized use cases and to maintain related requirements"
 
 // Longer description of the project
 // (used as a description for NuGet package; line breaks are automatically cleaned up)
-let description = "##Description##"
+let description = "C.A.S.E. tool that helps software developers to write organized use cases and to maintain related requirements"
 
 // List of author names (for NuGet package)
-let authors = [ "##Author##" ]
+let authors = [ "davidpodhola" ]
 
 // Tags for your project (for NuGet package)
-let tags = "##Tags##"
+let tags = "case,use-case,uml"
 
 // File system information
-let solutionFile  = "##ProjectName##.sln"
+let solutionFile  = "UseCaseMaker.sln"
 
 // Default target configuration
 let configuration = "Release"
@@ -55,14 +55,14 @@ let testAssemblies = "tests/**/bin" </> configuration </> "*Tests*.dll"
 
 // Git configuration (used for publishing documentation in gh-pages branch)
 // The profile where the project is posted
-let gitOwner = "##GitHome##"
-let gitHome = sprintf "%s/%s" "##GitUrl##" gitOwner
+let gitOwner = "HSharpSoftware"
+let gitHome = sprintf "%s/%s" "https://github.com" gitOwner
 
 // The name of the project on GitHub
-let gitName = "##GitName##"
+let gitName = "use-case-maker"
 
 // The url for the raw files hosted
-let gitRaw = environVarOrDefault "gitRaw" "##GitRawUrl##/##GitHome##"
+let gitRaw = environVarOrDefault "gitRaw" "https://raw.githubusercontent.com/HSharpSoftware"
 
 // --------------------------------------------------------------------------------------
 // END TODO: The rest of the file includes standard build steps
