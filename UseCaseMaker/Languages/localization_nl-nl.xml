@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- [nl] tag identificates new line -->
+<!-- Start of 2.0.0 section -->
+<UCM-StringTable Description="Nederlands" Country="Nederland" RefCode="NL-NL">
+<!-- End of 2.0.0 section -->
+	<Globals>
+		<NewModel>Nieuw model</NewModel>
+		<Model>Model</Model>
+		<Actor>Actor</Actor>
+		<Actors>Actors</Actors>
+		<Package>Package</Package>
+		<Packages>Packages</Packages>
+		<UseCase>Use case</UseCase>
+		<UseCases>Use cases</UseCases>
+		<OpenIssues>Open zaken</OpenIssues>
+		<FlowOfEvents>Volgorde van gebeurtenissen</FlowOfEvents>
+		<Prose>Literatuur</Prose>
+		<Requirements>Requirements</Requirements>
+		<Description>Beschrijving</Description>
+		<Notes>Aantekeningen</Notes>
+		<RelatedDocuments>Gerelateerde dokumenten</RelatedDocuments>
+		<Details>Details</Details>
+		<Priority>Prioriteit</Priority>
+		<Complexity>Complexiteit</Complexity>
+		<Implementation>Implementatie</Implementation>
+		<Level>Nivo</Level>
+		<Status>Status</Status>
+		<AssignedTo>Toegewezen aan</AssignedTo>
+		<Release>Release</Release>
+		<Preconditions>Pre-condities</Preconditions>
+		<Postconditions>Post-condities</Postconditions>
+		<ActiveActors>Aktieve actors</ActiveActors>
+		<Primary>Primaire</Primary>
+		<History>Historie</History>
+		<ModelBrowser>Model browser</ModelBrowser>
+		<Summary>Samenvatting</Summary>
+		<Identifier>Identifier</Identifier>
+		<Owner>Eigenaar</Owner>
+		<Glossary>Glossary</Glossary>
+		<GlossaryItem>Glossary item</GlossaryItem>
+		<!-- Start of 2.0.0 section -->
+		<ProposedBy>Voorstel door</ProposedBy>
+		<BenefitTo>Benefit to</BenefitTo>
+		<Category>Categorie</Category>
+		<Importance>Belangrijkheid</Importance>
+		<Acceptance>Acceptatie</Acceptance>
+		<MappedUCs>Gemapt op use cases</MappedUCs>
+		<TriggerEvent>Trigger evenement</TriggerEvent>
+		<TriggerDescription>Trigger omschrijving</TriggerDescription>
+		<Stakeholder>Stakeholder</Stakeholder>
+		<Stakeholders>Stakeholders</Stakeholders>
+		<Author>Auteur</Author>
+		<Company>Bedrijf</Company>
+		<CreationDate>Creatie datum</CreationDate>
+		<ExportPrintDate>Export/Print datum</ExportPrintDate>
+		<!-- End of 2.0.0 section -->
+		<!-- Start of 0.9.6 section -->
+		<Goals>Goals</Goals>
+		<!-- End of 0.9.6 section -->
+		<HistoryType>
+			<Item EnumName="Implementation" ListIndex="0">Implementatie</Item>
+			<Item EnumName="Status" ListIndex="1">Status</Item>
+			  <!-- Start of 2.0.0 section -->
+			  <Item EnumName="Acceptance" ListIndex="1">Acceptatie</Item>
+			  <!-- End of 2.0.0 section -->
+		</HistoryType>
+	</Globals>  
+	<UserMessages>
+		<!-- Start of 2.0.0 section --> 
+		<!-- <actorAlreadyPresent>Actor already exists</actorAlreadyPresent> -->
+		<elementAlreadyPresent>Element bestaat reeds</elementAlreadyPresent>
+		<!-- End of 2.0.0 section -->
+		<fileAlreadyPresent>Bestand bestaat reeds</fileAlreadyPresent>
+		<cannotOpenFile>Kan bestand niet openen</cannotOpenFile>
+    <!-- Start of 2.0.0 section -->
+    <!-- <exitConfirm>Do you really want to exit?</exitConfirm> -->
+    <!-- End of 2.0.0 section -->
+		<saveBeforeExport>Model moet worden bewaard voor export</saveBeforeExport>
+		<htmlExportCompleted>Export gereed. Wilt u de HTML bestanden zien?</htmlExportCompleted>
+		<xmiExportCompleted>Export gereed.</xmiExportCompleted>
+		<pdfExportCompleted>Export gereed. Wilt u het PDF bestand zien?</pdfExportCompleted>
+		<rtfExportCompleted>Export gereed. Wilt u het RTF bestand zien?</rtfExportCompleted>
+		<exportAsXMI>XMI 1.1 Export</exportAsXMI>
+		<exportAsPDF>PDF Export</exportAsPDF>
+		<exportAsRTF>RTF Export</exportAsRTF>
+		<saveModel>Wilt u het huidige model bewaren?</saveModel>
+		<saveModelAs>Bewaar model als...</saveModelAs>
+		<openModel>Open model</openModel>
+		<selectHTMLdestination>Selecteer de HTML bestanden doel folder</selectHTMLdestination>
+		<nameAlreadyInUse>Naam is al in gebruik</nameAlreadyInUse>
+		<!-- Start of 2.0.0 section -->
+		<searchCompleted>Zoekopdracht uitgevoerd</searchCompleted>
+		<replaceCompleted>Vervangen uitgevoerd</replaceCompleted>
+		<updateModel>Dit model is gemaakt met een oudere version.
+		[nl]Do Wilt u het converteren en openen?</updateModel>
+		<!-- End of 2.0.0 section -->    
+	</UserMessages>
+	<frmMain>
+		<Controls>
+			<!-- File menu items -->
+			<mnuFile>&amp;Bestand</mnuFile>
+			<mnuFileNew>&amp;Nieuw</mnuFileNew>
+			<mnuFileOpen>&amp;Open...</mnuFileOpen>
+			<mnuFileSave>&amp;Bewaar</mnuFileSave>
+			<mnuFileSaveAs>Bewaar &amp;als...</mnuFileSaveAs>
+			<mnuFileExit>&amp;Exit</mnuFileExit>
+			<!-- Edit menu items -->
+			<mnuEdit>&amp;Edit</mnuEdit>
+			<!-- Start of 0.9.5 section -->
+			<mnuEditCut>Knippen</mnuEditCut>
+			<mnuEditCopy>&amp;Kopieeren</mnuEditCopy>
+			<mnuEditPaste>&amp;Plakken</mnuEditPaste>
+			<!-- End of 0.9.5 section -->
+			<!-- Start of 2.0.0 section -->
+			<mnuEditSearchReplace>&amp;Zoeken en Vervangen</mnuEditSearchReplace>
+			<!-- End of 2.0.0 section -->
+			<mnuEditAddPackage>Toevoegen &amp;package</mnuEditAddPackage>
+			<mnuEditRemovePackage>&amp;Verwijderen package</mnuEditRemovePackage>
+			<mnuEditAddActor>Toevoegen &amp;actor</mnuEditAddActor>
+			<mnuEditRemoveActor>Verijder&amp;Verplaats actor</mnuEditRemoveActor>
+			<mnuEditAddUseCase>Toevoegen&amp;use case</mnuEditAddUseCase>
+			<mnuEditRemoveUseCase>Verijwderen use case</mnuEditRemoveUseCase>
+			<!-- Start of 0.9.6 section -->
+			<mnuEditReorderElements>Herschikken elementen</mnuEditReorderElements>
+			<!-- End of 0.9.6 section -->
+			<!-- Tools menu items -->
+			<mnuTools>&amp;Gereedschappen</mnuTools>
+			<mnuToolsHtmlExport>&amp;HTML export</mnuToolsHtmlExport>
+			<mnuToolsXMIExport>&amp;XMI 1.1 export</mnuToolsXMIExport>
+			<mnuToolsPDFExport>&amp;PDF export</mnuToolsPDFExport>
+			<mnuToolsRTFExport>&amp;RTF export</mnuToolsRTFExport>
+			<mnuToolsOptions>&amp;Opties</mnuToolsOptions>
+			<!-- Help menu items -->
+			<mnuHelp>&amp;Help</mnuHelp>
+			<mnuHelpAbout>&amp;Over...</mnuHelpAbout>
+			<!-- Model browser context menu items -->
+			<!-- Start of 0.9.5 section -->
+			<mnuCtxMBCut>Knipper</mnuCtxMBCut>
+			<mnuCtxMBCopy>&amp;Kopieeren</mnuCtxMBCopy>
+			<mnuCtxMBPaste>&amp;Plakken</mnuCtxMBPaste>
+			<!-- End of 0.9.5 section -->
+			<mnuCtxMBAddPackage>Toevoegen &amp;package</mnuCtxMBAddPackage>
+			<mnuCtxMBRemovePackage>&amp;Verwijderen package</mnuCtxMBRemovePackage>
+			<mnuCtxMBAddActor>Toevoegen &amp;actor</mnuCtxMBAddActor>
+			<mnuCtxMBRemoveActor>Verwijderen actor</mnuCtxMBRemoveActor>
+			<mnuCtxMBAddUseCase>Toevoegen use case</mnuCtxMBAddUseCase>
+			<mnuCtxMBRemoveUseCase>Verwijderen use case</mnuCtxMBRemoveUseCase>
+			<!-- Start of 0.9.6 section -->
+			<mnuCtxMBReorderElements>Herschikken elementen</mnuCtxMBReorderElements>
+			<!-- End of 0.9.6 section -->
+			<!-- Element token context menu items -->
+			<mnuCtxETGoToDefinition>&amp;Ga naar definitie</mnuCtxETGoToDefinition>
+			<!-- Start of 0.9.5 section -->
+			<mnuCtxETCut>Knippen</mnuCtxETCut>
+			<mnuCtxETCopy>Kopieeren</mnuCtxETCopy>
+			<mnuCtxETPaste>Plakken</mnuCtxETPaste>
+			<!-- End of 0.9.5 section -->					
+			<!-- Other controls -->
+			<!-- Start of 2.0.0 section -->
+			<!-- <lblModelBrowser>Model browser</lblModelBrowser> -->
+			<!-- All tab pages have been moved into the new frmTabView form -->
+			<!-- End of 2.0.0. section -->
+			<!-- Toolbar buttons -->
+			<tbBtnNew ToolTipText="Nieuw model"></tbBtnNew>
+			<tbBtnOpen ToolTipText="Open model"></tbBtnOpen>
+			<tbBtnSave ToolTipText="Bewaar model"></tbBtnSave>
+			<tbBtnAddPackage ToolTipText="Nieuw package"></tbBtnAddPackage>
+			<tbBtnRemovePackage ToolTipText="Verijder package"></tbBtnRemovePackage>
+			<tbBtnAddActor ToolTipText="Nieuwe actor"></tbBtnAddActor>
+			<tbBtnRemoveActor ToolTipText="Verwijder actor"></tbBtnRemoveActor>
+			<tbBtnAddUseCase ToolTipText="Nieuwe use case"></tbBtnAddUseCase>
+			<tbBtnRemoveUseCase ToolTipText="Verwijder use case"></tbBtnRemoveUseCase>
+		</Controls>
+	</frmMain>
+	<!-- Start of 2.0.0 section -->
+	<frmModelBrowser>
+		<Controls>
+			<Self>Model browser</Self>
+		</Controls>
+	</frmModelBrowser>
+	<frmTabView>
+		<Controls>
+			<!-- Tab pages -->
+			<!-- Main -->
+			<pgMain>Main</pgMain>
+			<lblFullPathTitle>Volledig pad</lblFullPathTitle>
+			<lblPackagesTitle>Package</lblPackagesTitle>
+			<lblActorsTitle>Actors</lblActorsTitle>
+			<lblUseCasesTitle>Use cases</lblUseCasesTitle>
+			<!-- Details -->
+			<pgDetails>Details</pgDetails>
+			<lblPriorityTitle>Prioriteit</lblPriorityTitle>
+			<lblLevelTitle>Level</lblLevelTitle>
+			<lblComplexityTitle>Complexiteit</lblComplexityTitle>
+			<lblStatusTitle>Status</lblStatusTitle>
+			<lblImplTitle>Implementatie</lblImplTitle>
+			<btnStatusToHistory>Toevoegen tot history</btnStatusToHistory>
+			<btnImplToHistory>Toevoegen tot history</btnImplToHistory>
+			<lblAssignedToTitle>Toegekend aan</lblAssignedToTitle>
+			<lblReleaseTitle>Release</lblReleaseTitle>
+			<lblOpenIssuesTitle>Open zaken</lblOpenIssuesTitle>
+			<btnAddOpenIssue>Toevoegen</btnAddOpenIssue>
+			<btnRemoveOpenIssue>Verwijderen</btnRemoveOpenIssue>
+			<cmbLevel>
+				<Item EnumName="Summary" ListIndex="0">Samenvatting</Item>
+				<Item EnumName="User" ListIndex="1">User</Item>
+				<Item EnumName="Subfunction" ListIndex="2">Subfunctie</Item>
+			</cmbLevel>
+			<cmbComplexity>
+				<Item EnumName="Low" ListIndex="0">Laag</Item>
+				<Item EnumName="Medium" ListIndex="1">Medium</Item>
+				<Item EnumName="High" ListIndex="2">Hoog</Item>
+			</cmbComplexity>
+			<cmbStatus>
+				<Item EnumName="Named" ListIndex="0">Aangemaakt</Item>
+				<Item EnumName="Initial" ListIndex="1">Geinitaliseerd</Item>
+				<Item EnumName="Base" ListIndex="2">Basis</Item>
+				<Item EnumName="Completed" ListIndex="3">Gereed</Item>
+				<Item EnumName="Deferred" ListIndex="4">Uitgesteld</Item>
+				<Item EnumName="Tested" ListIndex="5">Getest</Item>
+				<Item EnumName="Approved" ListIndex="6">Goedgekeurd</Item>
+			</cmbStatus>
+			<cmbImplementation>
+				<Item EnumName="Scheduled" ListIndex="0">Gepland</Item>
+				<Item EnumName="Started" ListIndex="1">Gestart</Item>
+				<Item EnumName="Partial" ListIndex="2">Deels</Item>
+				<Item EnumName="Completed" ListIndex="3">Gereed</Item>
+				<Item EnumName="Deferred" ListIndex="4">Uitgesteld</Item>
+			</cmbImplementation>
+			<!-- Use Case General -->
+			<pgUCGeneral>General</pgUCGeneral>
+			<lblUCIDTitle>Identifier</lblUCIDTitle>
+			<lblUCOwnerTitle>Eigenaar package</lblUCOwnerTitle>
+			<lblUCNameTitle>Naam</lblUCNameTitle>
+			<btnUCNameChange>Aanpassen</btnUCNameChange>
+			<lblPreconditionsTitle>Pre-condities</lblPreconditionsTitle>
+			<lblPostconditionsTitle>Post-condities</lblPostconditionsTitle>
+			<lblUCActorsTitle>Actors</lblUCActorsTitle>
+			<chActorName>Naam</chActorName>
+			<chActorPrimary>Primaire</chActorPrimary>
+			<btnAddActor>Toevoegen</btnAddActor>
+			<btnRemoveActor>Verwijderen</btnRemoveActor>
+			<btnSetPrimaryActor>Primaire</btnSetPrimaryActor>
+			<!-- Start of 2.0.0 section -->
+			<lblTriggerEventTitle>Trigger gebeurtenis</lblTriggerEventTitle>
+			<lblTriggerDescriptionTitle>Trigger omschrijving</lblTriggerDescriptionTitle>
+			<cmbTriggerEvent>
+				<Item EnumName="External" ListIndex="0">Extern</Item>
+				<Item EnumName="Temporal" ListIndex="1">Tijdelijk</Item>
+				<Item EnumName="Internal" ListIndex="2">Intern</Item>
+			</cmbTriggerEvent>
+			<!-- End of 2.0.0 section -->
+			<!-- Actor General -->
+			<pgAGeneral>General</pgAGeneral>
+			<lblAIDTitle>Identifier</lblAIDTitle>
+			<lblAOwnerTitle>Eigenaar package</lblAOwnerTitle>
+			<lblANameTitle>Naam</lblANameTitle>
+			<btnANameChange>Aanpassen</btnANameChange>
+			<!-- Start of 0.9.6 section -->
+			<lblAGoalsTitle>Goals</lblAGoalsTitle>
+			<btnAddGoal>Toevoegen</btnAddGoal>
+			<btnRemoveGoal>Verwijderen</btnRemoveGoal>
+			<!-- End of 0.9.6 section -->
+			<!-- Package General -->
+			<pgPGeneral>General</pgPGeneral>
+			<lblPIDTitle>Identifier</lblPIDTitle>
+			<lblPOwnerTitle>Eigenaar package</lblPOwnerTitle>
+			<lblPNameTitle>Naam</lblPNameTitle>
+			<btnPNameChange>Aanpassen</btnPNameChange>
+			<!-- Start of 2.0.0 section -->
+			<lblAuthorTitle>Auteurr</lblAuthorTitle>
+			<lblCompanyTitle>Bedrijf</lblCompanyTitle>
+			<lblModelReleaseTitle>Release</lblModelReleaseTitle>
+			<lblCreationDateTitle>Creatie datum</lblCreationDateTitle>
+			<!-- End of 2.0.0 section -->
+			<!-- Attributes -->
+			<pgAttributes>Attributen</pgAttributes>
+			<lblDescriptionTitle>Omschrijving</lblDescriptionTitle>
+			<lblNotesTitle>Aantekeningen</lblNotesTitle>
+			<lblRelatedDocsTitle>Gerelateerde documenten</lblRelatedDocsTitle>
+			<btnAddRelatedDoc>Toevoegen</btnAddRelatedDoc>
+			<btnRemoveRelatedDoc>Verwijderen</btnRemoveRelatedDoc>
+			<btnOpenRelatedDoc>Open</btnOpenRelatedDoc>
+			<!-- Flow of events -->
+			<pgFlowOfEvents>Volgorde van gebeurtenissen</pgFlowOfEvents>
+			<lblStepsTitle>Stappen</lblStepsTitle>
+			<btnAddStep>Toevoegen</btnAddStep>
+			<btnInsertStep>Invoegen</btnInsertStep>
+			<!-- Start of 2.0.0 section -->
+			<btnAddSubStep>Voeg sub-stap in</btnAddSubStep>
+			<!-- End of 2.0.0 section -->
+			<btnAddAltStep>Voeg alternatief toe</btnAddAltStep>
+			<!-- Start of 0.9.6 section -->
+			<!-- <btnInsertAltStep>Insert alternative</btnInsertAltStep> -->
+			<btnAddRefStep>Voeg afhankelijkheid toe</btnAddRefStep>
+			<btnInsertRefStep>Voeg afhankelijkheid in</btnInsertRefStep>
+			<!-- End of 0.9.6 section -->
+			<btnRemoveStep>Verwijder</btnRemoveStep>
+			<!-- Prose -->
+			<pgProse>Literatuur</pgProse>
+			<!-- Requirements -->
+			<pgRequirements>Requirements</pgRequirements>
+			<btnAddRequirement>Toevoegen</btnAddRequirement>
+			<!-- Start of 2.0.0 section -->
+			<btnShowReqDetails>Open details</btnShowReqDetails>
+			<!-- End of 2.0.0 section -->
+			<btnRemoveRequirement>Verwijder</btnRemoveRequirement>
+			<!-- History -->
+			<pgHistory>Historie</pgHistory>
+			<btnRemoveHistoryItem>Verwijder</btnRemoveHistoryItem>
+			<chDate>Datum</chDate>
+			<chType>Type</chType>
+			<chAction>Actie</chAction>
+			<chNotes>Aantekeningen</chNotes>
+			<!-- Glossary -->
+			<pgGlossary>Glossary</pgGlossary>
+			<btnAddGlossaryItem>Toevoegen</btnAddGlossaryItem>
+			<btnRemoveGlossaryItem>Verwijderen</btnRemoveGlossaryItem>
+			<btnChangeGlossaryItem>Aanpassen</btnChangeGlossaryItem>
+			<!-- Start of 2.0.0 section -->
+			<!-- Stakeholders -->
+			<pgStakeholders>Stakeholders</pgStakeholders>
+			<btnAddStakeholder>Toevoegen</btnAddStakeholder>
+			<btnRemoveStakeholder>Verwijderen</btnRemoveStakeholder>
+			<btnChangeStakeholder>Aanpassen</btnChangeStakeholder>
+			<!-- End of 2.0.0 section -->
+		</Controls>
+	</frmTabView>
+	<!-- Form completely removed -->
+	<!-- <frmActorChooser>
+		<Controls>
+			<Self>Actors list</Self>
+			<lblChooseActorTitle>Select an actor</lblChooseActorTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmActorChooser> -->
+	<!-- End of 2.0.0 section -->
+	<frmCreator>
+		<Controls>
+			<Self>Creeer element</Self>
+			<lblNameTitle>Element Naam</lblNameTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmCreator>
+	<frmDeleter>
+		<Controls>
+			<Self>Verwijder element</Self>
+			<lblUserQuestionTitle>Geselecteerd element (en relative children) zullen worden verwijderd.
+			[nl]Doorgaan?</lblUserQuestionTitle>
+			<cbDontMark>Markeer voorkomende elementen niet als{element naam}</cbDontMark>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>			
+		</Controls>
+	</frmDeleter>
+	<frmNameChanger>
+		<Controls>
+			<Self>Hernoem element</Self>
+			<lblOldNameTitle>Oude naam</lblOldNameTitle>
+			<lblNewNameTitle>Nieuwe naam</lblNewNameTitle>
+			<cbNoReplace>Voorkomende elementen niet hernoemen</cbNoReplace>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>			
+		</Controls>	
+	</frmNameChanger>	
+	<frmHistoryNotes>
+		<Controls>
+			<Self>Aantekeningen Historie</Self>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>			
+		</Controls>
+	</frmHistoryNotes>
+	<frmOptions>
+		<Controls>
+			<Self>Opties</Self>
+			<pgOptLanguages>Beschikbare talen</pgOptLanguages>
+			<lblSelectLanguageTitle>Selecteer de user interface taal</lblSelectLanguageTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmOptions>
+	<!-- Start of 0.9.6 section	-->
+	<frmReorder>
+		<Controls>
+			<Self>Herschikken elementen</Self>
+			<btnMoveUp>Verplaats omhoog</btnMoveUp>
+			<btnMoveDown>Verplaats naar beneden</btnMoveDown>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmReorder>
+	<frmRefSelector>
+		<Controls>
+			<Self>Use case Afhankelijkheid</Self>
+			<lblStereotypeTitle>Stereotype</lblStereotypeTitle>
+			<!-- Start of 2.0.0 section	-->
+			<!-- <lblUseCaseTitle>Use case</lblUseCaseTitle> -->
+			<btnSelectUseCase>Selecteer een use case</btnSelectUseCase>
+			<!-- End of 2.0.0 section -->
+			<gbRelationship>Relatie</gbRelationship>
+			<lblDepFromTitle>afhankelijk van</lblDepFromTitle>
+			<btnSwap>Verwissel</btnSwap>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmRefSelector>
+	<!-- End of 0.9.6 section -->
+	<!-- Start of 2.0.0 section	-->
+	<frmSearchReplace>
+		<Controls>
+			<Self>Zoeken en vervangen</Self>
+			<gbOptions>Opties</gbOptions>
+			<lblSearch>Zoeken</lblSearch>
+			<lblReplace>Vervangen</lblReplace>
+			<cbWholeWords>Alleen gehele woorden</cbWholeWords>
+			<cbCaseSensitivity>Hoofdletter gevoelig</cbCaseSensitivity>
+			<cbElementOnly>Alleen het actieve venster</cbElementOnly>
+			<btnSearch>Start zoekvraag</btnSearch>
+			<btnSearchAgain>Opnieuw zoeken</btnSearchAgain>
+			<btnReplace>Vervang</btnReplace>
+			<btnReplaceAll>Vervang alles</btnReplaceAll>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmSearchReplace>
+	<frmChooser>
+		<Controls>
+			<Self>Element selectie</Self>
+			<lblElementSelectedTitle>Element geselecteerd</lblElementSelectedTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>      
+		</Controls>
+	</frmChooser>
+	<frmNameListChooser>
+		<Controls>
+			<Self>Lijst van voorkomende namen</Self>
+			<lblChooseNameTitle>Selecteer een naam</lblChooseNameTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmNameListChooser>
+	<frmRequirementEditor>
+		<Controls>
+			<Self>Requirement editor</Self>
+			<!-- Tab pages -->
+			<!-- Details -->
+			<pgDetails>Details</pgDetails>
+			<lblProposedByTitle>Voorgesteld door</lblProposedByTitle>
+			<lblBenefitToTitle>Toegevoegde waarde voor</lblBenefitToTitle>
+			<lblCategoryTitle>Categorie</lblCategoryTitle>
+			<lblImportanceTitle>Belangrijkheid</lblImportanceTitle>
+			<lblStatusTitle>Status</lblStatusTitle>
+			<lblAcceptanceStatusTitle>Acceptatie status</lblAcceptanceStatusTitle>
+			<lblMappedOntoUCsTitle>Gemapt op use cases</lblMappedOntoUCsTitle>
+			<btnAddPBStakeholder>Toevoegen</btnAddPBStakeholder>
+			<btnRemovePBStakeholder>Verwijderen</btnRemovePBStakeholder>
+			<btnAddBTStakeholder>Toevoegen</btnAddBTStakeholder>
+			<btnRemoveBTStakeholder>Verwijderen</btnRemoveBTStakeholder>
+			<btnStatusToHistory ref_form="frmTabView" ref_control="btnStatusToHistory"/>
+			<btnAcceptToHistory>Voeg aan historie toe</btnAcceptToHistory>
+			<btnAddMappedUC>Toevoegen</btnAddMappedUC>
+			<btnRemoveMappedUC>Verwijderen</btnRemoveMappedUC>
+			<btnGoToDefinition>Ga naar definitie</btnGoToDefinition>
+			<cmbCategory>
+				<Item EnumName="Functional" ListIndex="0">Functioneel</Item>
+				<Item EnumName="NonFunctional" ListIndex="1">Niet functioneel</Item>
+			</cmbCategory>
+			<cmbImportance>
+				<Item EnumName="MustHave" ListIndex="0">Must have</Item>
+				<Item EnumName="ShouldHave" ListIndex="1">Should have</Item>
+				<Item EnumName="NiceToHave" ListIndex="2">Nice to have</Item>        
+			</cmbImportance>
+			<cmbStatus ref_form="frmTabView" ref_control="cmbStatus"/>
+			<cmbAcceptanceStatus>
+				<Item EnumName="Proposed" ListIndex="0">Voorgesteld</Item>
+				<Item EnumName="Evaluating" ListIndex="1">Evalueren</Item>
+				<Item EnumName="Accepted" ListIndex="2">Geaccepteerd</Item>
+				<Item EnumName="Refused" ListIndex="3">Geweigerd</Item>
+				<Item EnumName="Cancelled" ListIndex="4">Gestopt</Item>
+				<Item EnumName="Conflictual" ListIndex="5">Conflicterend</Item>
+			</cmbAcceptanceStatus>
+			<!-- History -->
+			<pgHistory ref_form="frmTabView" ref_control="pgHistory"/>
+			<btnRemoveHistoryItem ref_form="frmTabView" ref_control="btnRemoveHistoryItem"/>
+			<chDate ref_form="frmTabView" ref_control="chDate"/>
+			<chType ref_form="frmTabView" ref_control="chType"/>
+			<chAction ref_form="frmTabView" ref_control="chAction"/>
+			<chNotes ref_form="frmTabView" ref_control="chNotes"/>
+			<!-- Other controls -->
+			<btnOK>OK</btnOK>
+		</Controls>
+	</frmRequirementEditor>
+	<!-- End of 2.0.0 section -->
+</UCM-StringTable>
+ 
