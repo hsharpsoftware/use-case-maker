@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- [nl] tag identificates new line -->
+<!-- Start of 2.0.0 section -->
+<UCM-StringTable Description="English" Country="United States of America" RefCode="EN-US">
+<!-- End of 2.0.0 section -->
+	<Globals>
+		<NewModel>New model</NewModel>
+		<Model>Model</Model>
+		<Actor>Actor</Actor>
+		<Actors>Actors</Actors>
+		<Package>Package</Package>
+		<Packages>Packages</Packages>
+		<UseCase>Use case</UseCase>
+		<UseCases>Use cases</UseCases>
+		<OpenIssues>Open issues</OpenIssues>
+		<FlowOfEvents>Flow of events</FlowOfEvents>
+		<Prose>Prose</Prose>
+		<Requirements>Requirements</Requirements>
+		<Description>Description</Description>
+		<Notes>Notes</Notes>
+		<RelatedDocuments>Related documents</RelatedDocuments>
+		<Details>Details</Details>
+		<Priority>Priority</Priority>
+		<Complexity>Complexity</Complexity>
+		<Implementation>Implementation</Implementation>
+		<Level>Level</Level>
+		<Status>Status</Status>
+		<AssignedTo>Assigned to</AssignedTo>
+		<Release>Release</Release>
+		<Preconditions>Pre-conditions</Preconditions>
+		<Postconditions>Post-conditions</Postconditions>
+		<ActiveActors>Active actors</ActiveActors>
+		<Primary>Primary</Primary>
+		<History>History</History>
+		<ModelBrowser>Model browser</ModelBrowser>
+		<Summary>Summary</Summary>
+		<Identifier>Identifier</Identifier>
+		<Owner>Owner</Owner>
+		<Glossary>Glossary</Glossary>
+		<GlossaryItem>Glossary item</GlossaryItem>
+		<!-- Start of 2.0.0 section -->
+		<ProposedBy>Proposed by</ProposedBy>
+		<BenefitTo>Benefit to</BenefitTo>
+		<Category>Category</Category>
+		<Importance>Importance</Importance>
+		<Acceptance>Acceptance</Acceptance>
+		<MappedUCs>Mapped onto use cases</MappedUCs>
+		<TriggerEvent>Trigger event</TriggerEvent>
+		<TriggerDescription>Trigger description</TriggerDescription>
+		<Stakeholder>Stakeholder</Stakeholder>
+		<Stakeholders>Stakeholders</Stakeholders>
+		<Author>Author</Author>
+		<Company>Company</Company>
+		<CreationDate>Creation date</CreationDate>
+		<ExportPrintDate>Export/Print date</ExportPrintDate>
+		<!-- End of 2.0.0 section -->
+		<!-- Start of 0.9.6 section -->
+		<Goals>Goals</Goals>
+		<!-- End of 0.9.6 section -->
+		<HistoryType>
+			<Item EnumName="Implementation" ListIndex="0">Implementation</Item>
+			<Item EnumName="Status" ListIndex="1">Status</Item>
+			  <!-- Start of 2.0.0 section -->
+			  <Item EnumName="Acceptance" ListIndex="1">Acceptance</Item>
+			  <!-- End of 2.0.0 section -->
+		</HistoryType>
+	</Globals>  
+	<UserMessages>
+		<!-- Start of 2.0.0 section --> 
+		<!-- <actorAlreadyPresent>Actor already exists</actorAlreadyPresent> -->
+		<elementAlreadyPresent>Element already exists</elementAlreadyPresent>
+		<!-- End of 2.0.0 section -->
+		<fileAlreadyPresent>File already exists</fileAlreadyPresent>
+		<cannotOpenFile>Cannot open file</cannotOpenFile>
+    <!-- Start of 2.0.0 section -->
+    <!-- <exitConfirm>Do you really want to exit?</exitConfirm> -->
+    <!-- End of 2.0.0 section -->
+		<saveBeforeExport>Model must be saved before export</saveBeforeExport>
+		<htmlExportCompleted>Export completed. Do you want to see the HTML files?</htmlExportCompleted>
+		<xmiExportCompleted>Export completed.</xmiExportCompleted>
+		<pdfExportCompleted>Export completed. Do you want to see the PDF file?</pdfExportCompleted>
+		<rtfExportCompleted>Export completed. Do you want to see the RTF file?</rtfExportCompleted>
+		<exportAsXMI>XMI 1.1 Export</exportAsXMI>
+		<exportAsPDF>PDF Export</exportAsPDF>
+		<exportAsRTF>RTF Export</exportAsRTF>
+		<saveModel>Do you want to save the current model?</saveModel>
+		<saveModelAs>Save model as...</saveModelAs>
+		<openModel>Open model</openModel>
+		<selectHTMLdestination>Select the HTML files destination folder</selectHTMLdestination>
+		<nameAlreadyInUse>Name already in use</nameAlreadyInUse>
+		<!-- Start of 2.0.0 section -->
+		<searchCompleted>Search completed</searchCompleted>
+		<replaceCompleted>Replace completed</replaceCompleted>
+		<updateModel>This model has been created with a previous program version.
+		[nl]Do you want to convert and open it?</updateModel>
+		<!-- End of 2.0.0 section -->    
+	</UserMessages>
+	<frmMain>
+		<Controls>
+			<!-- File menu items -->
+			<mnuFile>&amp;File</mnuFile>
+			<mnuFileNew>&amp;New</mnuFileNew>
+			<mnuFileOpen>&amp;Open...</mnuFileOpen>
+			<mnuFileSave>&amp;Save</mnuFileSave>
+			<mnuFileSaveAs>Save &amp;as...</mnuFileSaveAs>
+			<mnuFileExit>&amp;Exit</mnuFileExit>
+			<!-- Edit menu items -->
+			<mnuEdit>&amp;Edit</mnuEdit>
+			<!-- Start of 0.9.5 section -->
+			<mnuEditCut>Cu&amp;t</mnuEditCut>
+			<mnuEditCopy>&amp;Copy</mnuEditCopy>
+			<mnuEditPaste>&amp;Paste</mnuEditPaste>
+			<!-- End of 0.9.5 section -->
+			<!-- Start of 2.0.0 section -->
+			<mnuEditSearchReplace>&amp;Search and replace</mnuEditSearchReplace>
+			<!-- End of 2.0.0 section -->
+			<mnuEditAddPackage>Add &amp;package</mnuEditAddPackage>
+			<mnuEditRemovePackage>&amp;Remove package</mnuEditRemovePackage>
+			<mnuEditAddActor>Add &amp;actor</mnuEditAddActor>
+			<mnuEditRemoveActor>Re&amp;move actor</mnuEditRemoveActor>
+			<mnuEditAddUseCase>Add &amp;use case</mnuEditAddUseCase>
+			<mnuEditRemoveUseCase>Remo&amp;ve use case</mnuEditRemoveUseCase>
+			<!-- Start of 0.9.6 section -->
+			<mnuEditReorderElements>Re&amp;order elements</mnuEditReorderElements>
+			<!-- End of 0.9.6 section -->
+			<!-- Tools menu items -->
+			<mnuTools>&amp;Tools</mnuTools>
+			<mnuToolsHtmlExport>&amp;HTML export</mnuToolsHtmlExport>
+			<mnuToolsXMIExport>&amp;XMI 1.1 export</mnuToolsXMIExport>
+			<mnuToolsPDFExport>&amp;PDF export</mnuToolsPDFExport>
+			<mnuToolsRTFExport>&amp;RTF export</mnuToolsRTFExport>
+			<mnuToolsOptions>&amp;Options</mnuToolsOptions>
+			<!-- Help menu items -->
+			<mnuHelp>&amp;Help</mnuHelp>
+			<mnuHelpAbout>&amp;About...</mnuHelpAbout>
+			<!-- Model browser context menu items -->
+			<!-- Start of 0.9.5 section -->
+			<mnuCtxMBCut>Cu&amp;t</mnuCtxMBCut>
+			<mnuCtxMBCopy>&amp;Copy</mnuCtxMBCopy>
+			<mnuCtxMBPaste>&amp;Paste</mnuCtxMBPaste>
+			<!-- End of 0.9.5 section -->
+			<mnuCtxMBAddPackage>Add &amp;package</mnuCtxMBAddPackage>
+			<mnuCtxMBRemovePackage>&amp;Remove package</mnuCtxMBRemovePackage>
+			<mnuCtxMBAddActor>Add &amp;actor</mnuCtxMBAddActor>
+			<mnuCtxMBRemoveActor>Re&amp;move actor</mnuCtxMBRemoveActor>
+			<mnuCtxMBAddUseCase>Add &amp;use case</mnuCtxMBAddUseCase>
+			<mnuCtxMBRemoveUseCase>Remo&amp;ve use case</mnuCtxMBRemoveUseCase>
+			<!-- Start of 0.9.6 section -->
+			<mnuCtxMBReorderElements>Re&amp;order elements</mnuCtxMBReorderElements>
+			<!-- End of 0.9.6 section -->
+			<!-- Element token context menu items -->
+			<mnuCtxETGoToDefinition>&amp;Go to definition</mnuCtxETGoToDefinition>
+			<!-- Start of 0.9.5 section -->
+			<mnuCtxETCut>Cu&amp;t</mnuCtxETCut>
+			<mnuCtxETCopy>&amp;Copy</mnuCtxETCopy>
+			<mnuCtxETPaste>&amp;Paste</mnuCtxETPaste>
+			<!-- End of 0.9.5 section -->					
+			<!-- Other controls -->
+			<!-- Start of 2.0.0 section -->
+			<!-- <lblModelBrowser>Model browser</lblModelBrowser> -->
+			<!-- All tab pages have been moved into the new frmTabView form -->
+			<!-- End of 2.0.0. section -->
+			<!-- Toolbar buttons -->
+			<tbBtnNew ToolTipText="New model"></tbBtnNew>
+			<tbBtnOpen ToolTipText="Open model"></tbBtnOpen>
+			<tbBtnSave ToolTipText="Save model"></tbBtnSave>
+			<tbBtnAddPackage ToolTipText="New package"></tbBtnAddPackage>
+			<tbBtnRemovePackage ToolTipText="Remove package"></tbBtnRemovePackage>
+			<tbBtnAddActor ToolTipText="New actor"></tbBtnAddActor>
+			<tbBtnRemoveActor ToolTipText="Remove actor"></tbBtnRemoveActor>
+			<tbBtnAddUseCase ToolTipText="New use case"></tbBtnAddUseCase>
+			<tbBtnRemoveUseCase ToolTipText="Remove use case"></tbBtnRemoveUseCase>
+		</Controls>
+	</frmMain>
+	<!-- Start of 2.0.0 section -->
+	<frmModelBrowser>
+		<Controls>
+			<Self>Model browser</Self>
+		</Controls>
+	</frmModelBrowser>
+	<frmTabView>
+		<Controls>
+			<!-- Tab pages -->
+			<!-- Main -->
+			<pgMain>Main</pgMain>
+			<lblFullPathTitle>Full path</lblFullPathTitle>
+			<lblPackagesTitle>Package</lblPackagesTitle>
+			<lblActorsTitle>Actors</lblActorsTitle>
+			<lblUseCasesTitle>Use cases</lblUseCasesTitle>
+			<!-- Details -->
+			<pgDetails>Details</pgDetails>
+			<lblPriorityTitle>Priority</lblPriorityTitle>
+			<lblLevelTitle>Level</lblLevelTitle>
+			<lblComplexityTitle>Complexity</lblComplexityTitle>
+			<lblStatusTitle>Status</lblStatusTitle>
+			<lblImplTitle>Implementation</lblImplTitle>
+			<btnStatusToHistory>Add to history</btnStatusToHistory>
+			<btnImplToHistory>Add to history</btnImplToHistory>
+			<lblAssignedToTitle>Assigned to</lblAssignedToTitle>
+			<lblReleaseTitle>Release</lblReleaseTitle>
+			<lblOpenIssuesTitle>Open issues</lblOpenIssuesTitle>
+			<btnAddOpenIssue>Add</btnAddOpenIssue>
+			<btnRemoveOpenIssue>Remove</btnRemoveOpenIssue>
+			<cmbLevel>
+				<Item EnumName="Summary" ListIndex="0">Summary</Item>
+				<Item EnumName="User" ListIndex="1">User</Item>
+				<Item EnumName="Subfunction" ListIndex="2">Subfunction</Item>
+			</cmbLevel>
+			<cmbComplexity>
+				<Item EnumName="Low" ListIndex="0">Low</Item>
+				<Item EnumName="Medium" ListIndex="1">Medium</Item>
+				<Item EnumName="High" ListIndex="2">High</Item>
+			</cmbComplexity>
+			<cmbStatus>
+				<Item EnumName="Named" ListIndex="0">Created</Item>
+				<Item EnumName="Initial" ListIndex="1">Initied</Item>
+				<Item EnumName="Base" ListIndex="2">Base</Item>
+				<Item EnumName="Completed" ListIndex="3">Completed</Item>
+				<Item EnumName="Deferred" ListIndex="4">Deferred</Item>
+				<Item EnumName="Tested" ListIndex="5">Tested</Item>
+				<Item EnumName="Approved" ListIndex="6">Approved</Item>
+			</cmbStatus>
+			<cmbImplementation>
+				<Item EnumName="Scheduled" ListIndex="0">Scheduled</Item>
+				<Item EnumName="Started" ListIndex="1">Started</Item>
+				<Item EnumName="Partial" ListIndex="2">Partial</Item>
+				<Item EnumName="Completed" ListIndex="3">Completed</Item>
+				<Item EnumName="Deferred" ListIndex="4">Deferred</Item>
+			</cmbImplementation>
+			<!-- Use Case General -->
+			<pgUCGeneral>General</pgUCGeneral>
+			<lblUCIDTitle>Identifier</lblUCIDTitle>
+			<lblUCOwnerTitle>Owner package</lblUCOwnerTitle>
+			<lblUCNameTitle>Name</lblUCNameTitle>
+			<btnUCNameChange>Change</btnUCNameChange>
+			<lblPreconditionsTitle>Pre-conditions</lblPreconditionsTitle>
+			<lblPostconditionsTitle>Post-conditions</lblPostconditionsTitle>
+			<lblUCActorsTitle>Actors</lblUCActorsTitle>
+			<chActorName>Name</chActorName>
+			<chActorPrimary>Primary</chActorPrimary>
+			<btnAddActor>Add</btnAddActor>
+			<btnRemoveActor>Remove</btnRemoveActor>
+			<btnSetPrimaryActor>Primary</btnSetPrimaryActor>
+			<!-- Start of 2.0.0 section -->
+			<lblTriggerEventTitle>Trigger event</lblTriggerEventTitle>
+			<lblTriggerDescriptionTitle>Trigger description</lblTriggerDescriptionTitle>
+			<cmbTriggerEvent>
+				<Item EnumName="External" ListIndex="0">External</Item>
+				<Item EnumName="Temporal" ListIndex="1">Temporal</Item>
+				<Item EnumName="Internal" ListIndex="2">Internal</Item>
+			</cmbTriggerEvent>
+			<!-- End of 2.0.0 section -->
+			<!-- Actor General -->
+			<pgAGeneral>General</pgAGeneral>
+			<lblAIDTitle>Identifier</lblAIDTitle>
+			<lblAOwnerTitle>Owner package</lblAOwnerTitle>
+			<lblANameTitle>Name</lblANameTitle>
+			<btnANameChange>Change</btnANameChange>
+			<!-- Start of 0.9.6 section -->
+			<lblAGoalsTitle>Goals</lblAGoalsTitle>
+			<btnAddGoal>Add</btnAddGoal>
+			<btnRemoveGoal>Remove</btnRemoveGoal>
+			<!-- End of 0.9.6 section -->
+			<!-- Package General -->
+			<pgPGeneral>General</pgPGeneral>
+			<lblPIDTitle>Identifier</lblPIDTitle>
+			<lblPOwnerTitle>Owner package</lblPOwnerTitle>
+			<lblPNameTitle>Name</lblPNameTitle>
+			<btnPNameChange>Change</btnPNameChange>
+			<!-- Start of 2.0.0 section -->
+			<lblAuthorTitle>Author</lblAuthorTitle>
+			<lblCompanyTitle>Company</lblCompanyTitle>
+			<lblModelReleaseTitle>Release</lblModelReleaseTitle>
+			<lblCreationDateTitle>Creation date</lblCreationDateTitle>
+			<!-- End of 2.0.0 section -->
+			<!-- Attributes -->
+			<pgAttributes>Attributes</pgAttributes>
+			<lblDescriptionTitle>Description</lblDescriptionTitle>
+			<lblNotesTitle>Notes</lblNotesTitle>
+			<lblRelatedDocsTitle>Related documents</lblRelatedDocsTitle>
+			<btnAddRelatedDoc>Add</btnAddRelatedDoc>
+			<btnRemoveRelatedDoc>Remove</btnRemoveRelatedDoc>
+			<btnOpenRelatedDoc>Open</btnOpenRelatedDoc>
+			<!-- Flow of events -->
+			<pgFlowOfEvents>Flow of events</pgFlowOfEvents>
+			<lblStepsTitle>Steps</lblStepsTitle>
+			<btnAddStep>Add</btnAddStep>
+			<btnInsertStep>Insert</btnInsertStep>
+			<!-- Start of 2.0.0 section -->
+			<btnAddSubStep>Add sub-step</btnAddSubStep>
+			<!-- End of 2.0.0 section -->
+			<btnAddAltStep>Add alternative</btnAddAltStep>
+			<!-- Start of 0.9.6 section -->
+			<!-- <btnInsertAltStep>Insert alternative</btnInsertAltStep> -->
+			<btnAddRefStep>Add dependency</btnAddRefStep>
+			<btnInsertRefStep>Insert dependency</btnInsertRefStep>
+			<!-- End of 0.9.6 section -->
+			<btnRemoveStep>Remove</btnRemoveStep>
+			<!-- Prose -->
+			<pgProse>Prose</pgProse>
+			<!-- Requirements -->
+			<pgRequirements>Requirements</pgRequirements>
+			<btnAddRequirement>Add</btnAddRequirement>
+			<!-- Start of 2.0.0 section -->
+			<btnShowReqDetails>Open details</btnShowReqDetails>
+			<!-- End of 2.0.0 section -->
+			<btnRemoveRequirement>Remove</btnRemoveRequirement>
+			<!-- History -->
+			<pgHistory>History</pgHistory>
+			<btnRemoveHistoryItem>Remove</btnRemoveHistoryItem>
+			<chDate>Date</chDate>
+			<chType>Type</chType>
+			<chAction>Action</chAction>
+			<chNotes>Notes</chNotes>
+			<!-- Glossary -->
+			<pgGlossary>Glossary</pgGlossary>
+			<btnAddGlossaryItem>Add</btnAddGlossaryItem>
+			<btnRemoveGlossaryItem>Remove</btnRemoveGlossaryItem>
+			<btnChangeGlossaryItem>Change</btnChangeGlossaryItem>
+			<!-- Start of 2.0.0 section -->
+			<!-- Stakeholders -->
+			<pgStakeholders>Stakeholders</pgStakeholders>
+			<btnAddStakeholder>Add</btnAddStakeholder>
+			<btnRemoveStakeholder>Remove</btnRemoveStakeholder>
+			<btnChangeStakeholder>Change</btnChangeStakeholder>
+			<!-- End of 2.0.0 section -->
+		</Controls>
+	</frmTabView>
+	<!-- Form completely removed -->
+	<!-- <frmActorChooser>
+		<Controls>
+			<Self>Actors list</Self>
+			<lblChooseActorTitle>Select an actor</lblChooseActorTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmActorChooser> -->
+	<!-- End of 2.0.0 section -->
+	<frmCreator>
+		<Controls>
+			<Self>Create element</Self>
+			<lblNameTitle>Element name</lblNameTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmCreator>
+	<frmDeleter>
+		<Controls>
+			<Self>Delete element</Self>
+			<lblUserQuestionTitle>Selected element (and relative children) will be deleted.
+			[nl]Continue?</lblUserQuestionTitle>
+			<cbDontMark>Don't mark occurrences as {element name}</cbDontMark>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>			
+		</Controls>
+	</frmDeleter>
+	<frmNameChanger>
+		<Controls>
+			<Self>Rename element</Self>
+			<lblOldNameTitle>Old name</lblOldNameTitle>
+			<lblNewNameTitle>New name</lblNewNameTitle>
+			<cbNoReplace>Don't replace occurrences</cbNoReplace>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>			
+		</Controls>	
+	</frmNameChanger>	
+	<frmHistoryNotes>
+		<Controls>
+			<Self>History notes</Self>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>			
+		</Controls>
+	</frmHistoryNotes>
+	<frmOptions>
+		<Controls>
+			<Self>Options</Self>
+			<pgOptLanguages>Available languages</pgOptLanguages>
+			<lblSelectLanguageTitle>Select the user interface language</lblSelectLanguageTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmOptions>
+	<!-- Start of 0.9.6 section	-->
+	<frmReorder>
+		<Controls>
+			<Self>Reorder elements</Self>
+			<btnMoveUp>Move up</btnMoveUp>
+			<btnMoveDown>Move down</btnMoveDown>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmReorder>
+	<frmRefSelector>
+		<Controls>
+			<Self>Use case dependency</Self>
+			<lblStereotypeTitle>Stereotype</lblStereotypeTitle>
+			<!-- Start of 2.0.0 section	-->
+			<!-- <lblUseCaseTitle>Use case</lblUseCaseTitle> -->
+			<btnSelectUseCase>Select a use case</btnSelectUseCase>
+			<!-- End of 2.0.0 section -->
+			<gbRelationship>Relationship</gbRelationship>
+			<lblDepFromTitle>depends from</lblDepFromTitle>
+			<btnSwap>Swap</btnSwap>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmRefSelector>
+	<!-- End of 0.9.6 section -->
+	<!-- Start of 2.0.0 section	-->
+	<frmSearchReplace>
+		<Controls>
+			<Self>Search and replace</Self>
+			<gbOptions>Options</gbOptions>
+			<lblSearch>Search</lblSearch>
+			<lblReplace>Replace</lblReplace>
+			<cbWholeWords>Whole words only</cbWholeWords>
+			<cbCaseSensitivity>Case sensitivity</cbCaseSensitivity>
+			<cbElementOnly>Active element window only</cbElementOnly>
+			<btnSearch>Start search</btnSearch>
+			<btnSearchAgain>Search again</btnSearchAgain>
+			<btnReplace>Replace</btnReplace>
+			<btnReplaceAll>Replace all</btnReplaceAll>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmSearchReplace>
+	<frmChooser>
+		<Controls>
+			<Self>Element selection</Self>
+			<lblElementSelectedTitle>Element selected</lblElementSelectedTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>      
+		</Controls>
+	</frmChooser>
+	<frmNameListChooser>
+		<Controls>
+			<Self>List of available names</Self>
+			<lblChooseNameTitle>Select a name</lblChooseNameTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Cancel</btnCancel>
+		</Controls>
+	</frmNameListChooser>
+	<frmRequirementEditor>
+		<Controls>
+			<Self>Requirement editor</Self>
+			<!-- Tab pages -->
+			<!-- Details -->
+			<pgDetails>Details</pgDetails>
+			<lblProposedByTitle>Proposed by</lblProposedByTitle>
+			<lblBenefitToTitle>Benefit to</lblBenefitToTitle>
+			<lblCategoryTitle>Category</lblCategoryTitle>
+			<lblImportanceTitle>Importance</lblImportanceTitle>
+			<lblStatusTitle>Status</lblStatusTitle>
+			<lblAcceptanceStatusTitle>Acceptance status</lblAcceptanceStatusTitle>
+			<lblMappedOntoUCsTitle>Mapped onto use cases</lblMappedOntoUCsTitle>
+			<btnAddPBStakeholder>Add</btnAddPBStakeholder>
+			<btnRemovePBStakeholder>Remove</btnRemovePBStakeholder>
+			<btnAddBTStakeholder>Add</btnAddBTStakeholder>
+			<btnRemoveBTStakeholder>Remove</btnRemoveBTStakeholder>
+			<btnStatusToHistory ref_form="frmTabView" ref_control="btnStatusToHistory"/>
+			<btnAcceptToHistory>Add to history</btnAcceptToHistory>
+			<btnAddMappedUC>Add</btnAddMappedUC>
+			<btnRemoveMappedUC>Remove</btnRemoveMappedUC>
+			<btnGoToDefinition>Go to definition</btnGoToDefinition>
+			<cmbCategory>
+				<Item EnumName="Functional" ListIndex="0">Functional</Item>
+				<Item EnumName="NonFunctional" ListIndex="1">Non-functional</Item>
+			</cmbCategory>
+			<cmbImportance>
+				<Item EnumName="MustHave" ListIndex="0">Must have</Item>
+				<Item EnumName="ShouldHave" ListIndex="1">Should have</Item>
+				<Item EnumName="NiceToHave" ListIndex="2">Nice to have</Item>        
+			</cmbImportance>
+			<cmbStatus ref_form="frmTabView" ref_control="cmbStatus"/>
+			<cmbAcceptanceStatus>
+				<Item EnumName="Proposed" ListIndex="0">Proposed</Item>
+				<Item EnumName="Evaluating" ListIndex="1">Evaluating</Item>
+				<Item EnumName="Accepted" ListIndex="2">Accepted</Item>
+				<Item EnumName="Refused" ListIndex="3">Refused</Item>
+				<Item EnumName="Cancelled" ListIndex="4">Cancelled</Item>
+				<Item EnumName="Conflictual" ListIndex="5">Conflictual</Item>
+			</cmbAcceptanceStatus>
+			<!-- History -->
+			<pgHistory ref_form="frmTabView" ref_control="pgHistory"/>
+			<btnRemoveHistoryItem ref_form="frmTabView" ref_control="btnRemoveHistoryItem"/>
+			<chDate ref_form="frmTabView" ref_control="chDate"/>
+			<chType ref_form="frmTabView" ref_control="chType"/>
+			<chAction ref_form="frmTabView" ref_control="chAction"/>
+			<chNotes ref_form="frmTabView" ref_control="chNotes"/>
+			<!-- Other controls -->
+			<btnOK>OK</btnOK>
+		</Controls>
+	</frmRequirementEditor>
+	<!-- End of 2.0.0 section -->
+</UCM-StringTable>

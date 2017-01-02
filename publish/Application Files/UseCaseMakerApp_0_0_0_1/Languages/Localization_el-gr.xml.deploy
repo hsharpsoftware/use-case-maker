@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- [nl] tag identificates new line -->
+<!-- Start of 2.0.0 section -->
+<UCM-StringTable Description="Ελληνικά" Country="Ελλάδα" RefCode="EL-GR">
+<!-- End of 2.0.0 section -->
+  <Globals>
+		<NewModel>Νέο Πρότυπο</NewModel>
+		<Model>Πρότυπο</Model>
+		<Actor>Χαρακτήρας</Actor>
+		<Actors>Χαρακτήρες</Actors>
+		<Package>Πακέτο</Package>
+		<Packages>Πακέτα</Packages>
+		<UseCase>Σενάριο Χρήσης</UseCase>
+		<UseCases>Σενάρια Χρήσης</UseCases>
+		<OpenIssues>Εκκρεμή Ζητήματα</OpenIssues>
+		<FlowOfEvents>Ροή Γεγονότων</FlowOfEvents>
+		<Prose>Πεζογραφία</Prose>
+		<Requirements>Απαιτήσεις</Requirements>
+		<Description>Περιγραφή</Description>
+		<Notes>Σημειώσεις</Notes>
+		<RelatedDocuments>Σχετικά Έγγραφα</RelatedDocuments>
+		<Details>Λεπτομέρειες</Details>
+		<Priority>Προτεραιότητα</Priority>
+		<Complexity>Πολυπλοκότητα</Complexity>
+		<Implementation>Εφαρμογή</Implementation>
+		<Level>Level</Level>
+		<Status>Status</Status>
+		<AssignedTo>Assigned To</AssignedTo>
+		<Release>Έκδοση</Release>
+		<Preconditions>Συνθήκες Εισόδου</Preconditions>
+		<Postconditions>Συνθήκες Εξόδου</Postconditions>
+		<ActiveActors>Ενεργοί Χαρακτήρες</ActiveActors>
+		<Primary>Πρωτεύων</Primary>
+		<History>Ιστορικό</History>
+		<ModelBrowser>Model browser</ModelBrowser>
+		<Summary>Περίληψη</Summary>
+		<Identifier>Identifier</Identifier>
+		<Owner>Ιδιοκτήτης</Owner>
+		<Glossary>Γλωσσάριο</Glossary>
+		<GlossaryItem>Στοιχείο γλωσσαρίων</GlossaryItem>
+	  <!-- Start of 2.0.0 section -->
+	  <ProposedBy>Προτεινόμενος από</ProposedBy>
+	  <BenefitTo>Benefit to</BenefitTo>
+	  <Category>Κατηγορία</Category>
+	  <Importance>Σπουδαιότητα</Importance>
+	  <Acceptance>Αποδοχή</Acceptance>
+	  <MappedUCs>Αντιστοίχιση σε Σενάρια Χρήσης</MappedUCs>
+	  <TriggerEvent>Γεγονός Trigger</TriggerEvent>
+	  <TriggerDescription>Περιγραφή Trigger </TriggerDescription>
+	  <Stakeholder>Συμμέτοχος</Stakeholder>
+	  <Stakeholders>Συμμέτοχοι</Stakeholders>
+	  <Author>Δημιουργός</Author>
+	  <Company>Εταιρεία</Company>
+	  <CreationDate>Ημερομηνία Δημιουργίας</CreationDate>
+	  <ExportPrintDate>Ημερονηνία Εξαγωγής/Εκτύπωσης</ExportPrintDate>
+	  <!-- End of 2.0.0 section -->
+		<!-- Start of 0.9.6 section -->
+		<Goals>Goals</Goals>
+		<!-- End of 0.9.6 section -->
+		<HistoryType>
+			<Item EnumName="Implementation" ListIndex="0">Implementation</Item>
+			<Item EnumName="Status" ListIndex="1">Status</Item>
+			<!-- Start of 2.0.0 section -->
+			<Item EnumName="Αποδοχή" ListIndex="1">Acceptance</Item>
+			<!-- End of 2.0.0 section -->			
+		</HistoryType>	
+	</Globals>
+	<UserMessages>
+		<!-- Start of 2.0.0 section -->
+		<!-- <actorAlreadyPresent>Ο Χαρακτήρας υπάρχει ήδη</actorAlreadyPresent> -->
+		<elementAlreadyPresent>Το Αντικείμενο υπάρχει ήδη</elementAlreadyPresent>
+		<!-- End of 2.0.0 section -->		
+		<fileAlreadyPresent>Το αρχείο υπάρχει ήδη</fileAlreadyPresent>
+		<cannotOpenFile>Το Άνοιγμα του αρχείου δεν είναι δυνατό</cannotOpenFile>
+    <!-- Start of 2.0.0 section -->
+    <!-- <exitConfirm>Πρόκειται να βγείτε από την εφαρμογή. Ειστέ σίγουροι ότι θέλετε να συνεχίσετε;</exitConfirm> -->
+    <!-- End of 2.0.0 section -->
+		<saveBeforeExport>Πριν την εξαγωγή το Πρότυπο πρέπει να αποθηκευτεί</saveBeforeExport>
+		<htmlExportCompleted>Η Εξαγωγή ολοκληρώθηκε. Θέλετε να δείτε τα αρχεία HTML; </htmlExportCompleted>
+		<xmiExportCompleted>Η Εξαγωγή ολοκληρώθηκε.</xmiExportCompleted>
+		<pdfExportCompleted>Η Εξαγωγή ολοκληρώθηκε. Θέλετε να εμφανίσετε τα αρχεία PDF;</pdfExportCompleted>
+		<rtfExportCompleted>Η Εξαγωγή ολοκληρώθηκε. Θέλετε να εμφανίσετε τα αρχεία RTF;</rtfExportCompleted>
+		<exportAsXMI>XMI 1.1 Εξαγωγή</exportAsXMI>
+		<exportAsPDF>PDF Εξαγωγή</exportAsPDF>
+		<exportAsRTF>RTF Εξαγωγή</exportAsRTF>
+		<saveModel>Θέλετε να αποθηκεύσετε το παρών Πρότυπο;</saveModel>
+		<saveModelAs>Αποθήκευση Προτύπου ως...</saveModelAs>
+		<openModel>Άνοιγμα Προτύπου</openModel>
+		<selectHTMLdestination>Επιλέξτε το φάκελλο προορισμού αρχείων HTML</selectHTMLdestination>
+		<nameAlreadyInUse>Το όνομα χρησιμοποιείται ήδη</nameAlreadyInUse>
+		<!-- Start of 2.0.0 section -->
+		<searchCompleted>Η αναζήτηση ολοκληρώθηκε</searchCompleted>
+		<replaceCompleted>Η αντικατάσταση ολοκληρώθηκε</replaceCompleted>
+		<updateModel>
+		    Το παρών πρότυπο έχει δημιουργηθεί με παλαιότερη έκδοδη του προγράμματος
+			[nl]Θέλετε να το μετατρέψετε και να το ανοίξετε;
+		</updateModel>
+		<!-- End of 2.0.0 section -->
+	</UserMessages>
+	<frmMain>
+		<Controls>
+			<!-- File menu items -->
+			<mnuFile>&amp;Αρχείο</mnuFile>
+			<mnuFileNew>&amp;Νέο</mnuFileNew>
+			<mnuFileOpen>&amp;Άνοιγμα...</mnuFileOpen>
+			<mnuFileSave>&amp;Αποθήκευση</mnuFileSave>
+			<mnuFileSaveAs>Αποθήκευση &amp;ως...</mnuFileSaveAs>
+			<mnuFileExit>&amp;Έξοδος</mnuFileExit>
+			<!-- Edit menu items -->
+			<mnuEdit>&amp;Επεξεργασία</mnuEdit>
+			<!-- Start of 0.9.5 section -->
+			<mnuEditCut>Απο&amp;κοπή</mnuEditCut>
+			<mnuEditCopy>&amp;Αντιγραφή</mnuEditCopy>
+			<mnuEditPaste>&amp;Επικόλληση</mnuEditPaste>
+			<!-- End of 0.9.5 section -->
+			<!-- Start of 2.0.0 section -->
+			<mnuEditSearchReplace>Αναζήτηση και Αντικατάσταση</mnuEditSearchReplace>
+			<!-- End of 2.0.0 section -->			
+			<mnuEditAddPackage>Προσθήκη &amp;Πακέτου</mnuEditAddPackage>
+			<mnuEditRemovePackage>Αφαίρ&amp;εση Πακέτου</mnuEditRemovePackage>
+			<mnuEditAddActor>Προσθήκη &amp;Χαρακτήρα</mnuEditAddActor>
+			<mnuEditRemoveActor>Αφαί&amp;ρεση Χαρακτήρα</mnuEditRemoveActor>
+			<mnuEditAddUseCase>Προσθήκη &amp;Σεναρίου Χρήσης </mnuEditAddUseCase>
+			<mnuEditRemoveUseCase>Α&amp;φαίρεση Σεναρίου Χρήσης</mnuEditRemoveUseCase>
+			<!-- Start of 0.9.6 section -->
+			<mnuEditReorderElements>Επανατα&amp;ξινόμηση Αντικειμένων</mnuEditReorderElements>
+			<!-- End of 0.9.6 section -->
+			<!-- Tools menu items -->
+			<mnuTools>Ε&amp;ργαλεία</mnuTools>
+			<mnuToolsHtmlExport>&amp;HTML Εξαγωγή</mnuToolsHtmlExport>
+			<mnuToolsXMIExport>&amp;XMI 1.1 Εξαγωγή</mnuToolsXMIExport>
+			<mnuToolsPDFExport>&amp;PDF Εξαγωγή</mnuToolsPDFExport>
+			<mnuToolsRTFExport>&amp;RTF Εξαγωγή</mnuToolsRTFExport>
+			<mnuToolsOptions>Ε&amp;πιλογές</mnuToolsOptions>
+			<!-- Help menu items -->
+			<mnuHelp>&amp;Βοήθεια</mnuHelp>
+			<mnuHelpAbout>&amp;About...</mnuHelpAbout>
+			<!-- Model browser context menu items -->
+			<!-- Start of 0.9.5 section -->
+			<mnuCtxMBCut>Απο&amp;κοπή</mnuCtxMBCut>
+			<mnuCtxMBCopy>&amp;Αντιγραφή</mnuCtxMBCopy>
+			<mnuCtxMBPaste>&amp;Επικόλληση</mnuCtxMBPaste>
+			<!-- End of 0.9.5 section -->			
+			<mnuCtxMBAddPackage>Προσθήκη &amp;Πακέτου</mnuCtxMBAddPackage>
+			<mnuCtxMBRemovePackage>Αφαίρ&amp;εση Πακέτου</mnuCtxMBRemovePackage>
+			<mnuCtxMBAddActor>Προσθήκη &amp;Χαρακτήρα</mnuCtxMBAddActor>
+			<mnuCtxMBRemoveActor>Αφαί&amp;ρεση Χαρακτήρα</mnuCtxMBRemoveActor>
+			<mnuCtxMBAddUseCase>Προσθήκη &amp;Σεναρίου Χρήσης</mnuCtxMBAddUseCase>
+			<mnuCtxMBRemoveUseCase>Α&amp;φαίρεση Σεναρίου Χρήσης</mnuCtxMBRemoveUseCase>
+			<!-- Start of 0.9.6 section -->
+			<mnuCtxMBReorderElements>Επανατα&amp;ξινόμηση Αντικειμένων</mnuCtxMBReorderElements>
+			<!-- End of 0.9.6 section -->			
+			<!-- Element token context menu items -->
+			<mnuCtxETGoToDefinition>&amp;Go to definition</mnuCtxETGoToDefinition>
+			<!-- Start of 0.9.5 section -->
+			<mnuCtxETCut>Απο&amp;κοπή</mnuCtxETCut>
+			<mnuCtxETCopy>&amp;Αντιγραφή</mnuCtxETCopy>
+			<mnuCtxETPaste>&amp;Επικόλληση</mnuCtxETPaste>
+			<!-- End of 0.9.5 section -->					
+			<!-- Other controls -->
+			<!-- Start of 2.0.0 section -->
+			<!-- <lblModelBrowser>Model browser</lblModelBrowser> -->
+			<!-- All tab pages have been moved into the new frmTabView form -->
+			<!-- End of 2.0.0. section -->			
+			<!-- Toolbar buttons -->
+			<tbBtnNew ToolTipText="Νέο Πρότυπο"></tbBtnNew>
+			<tbBtnOpen ToolTipText="Άνοιγμα Προτύπου"></tbBtnOpen>
+			<tbBtnSave ToolTipText="Αποθήκευση Προτύπου"></tbBtnSave>
+			<tbBtnAddPackage ToolTipText="Νέο Πακέτο"></tbBtnAddPackage>
+			<tbBtnRemovePackage ToolTipText="Αφαίρεση Πακέτου"></tbBtnRemovePackage>
+			<tbBtnAddActor ToolTipText="Νέος Χαρακτήρας"></tbBtnAddActor>
+			<tbBtnRemoveActor ToolTipText="Αφαίρεση Χαρακτήρα"></tbBtnRemoveActor>
+			<tbBtnAddUseCase ToolTipText="Νέο Σενάριο Χρήσης"></tbBtnAddUseCase>
+			<tbBtnRemoveUseCase ToolTipText="Αφαίρεση Σεναρίου Χρήσης"></tbBtnRemoveUseCase>
+		</Controls>
+	</frmMain>
+	<!-- Start of 2.0.0 section -->
+	<frmModelBrowser>
+		<Controls>
+			<Self>Model browser</Self>
+		</Controls>
+	</frmModelBrowser>
+	<frmTabView>
+		<Controls>
+			<!-- Tab pages -->
+			<!-- Main -->
+			<pgMain>Πληροφορίες</pgMain>
+			<lblFullPathTitle>Πλήρης Διαδρομή</lblFullPathTitle>
+			<lblPackagesTitle>Πακέτο</lblPackagesTitle>
+			<lblActorsTitle>Χαρακτήρες</lblActorsTitle>
+			<lblUseCasesTitle>Σενάρια Χρήσης</lblUseCasesTitle>
+			<!-- Details -->
+			<pgDetails>Λεπτομέρειες</pgDetails>
+			<lblPriorityTitle>Προτεραιότητα</lblPriorityTitle>
+			<lblLevelTitle>Επέπεδο</lblLevelTitle>
+			<lblComplexityTitle>Πολυπλοκότητα</lblComplexityTitle>
+			<lblStatusTitle>Status</lblStatusTitle>
+			<lblImplTitle>Εφαρμογή</lblImplTitle>
+			<btnStatusToHistory>Προσθήκη στο Ιστορικό</btnStatusToHistory>
+			<btnImplToHistory>Προσθήκη στο Ιστορικό</btnImplToHistory>
+			<lblAssignedToTitle>Assigned to</lblAssignedToTitle>
+			<lblReleaseTitle>Έκδοση</lblReleaseTitle>
+			<lblOpenIssuesTitle>Εκκρεμή Ζητήματα</lblOpenIssuesTitle>
+			<btnAddOpenIssue>Προσθήκη</btnAddOpenIssue>
+			<btnRemoveOpenIssue>Αφαίρεση</btnRemoveOpenIssue>
+			<cmbLevel>
+				<Item EnumName="Summary" ListIndex="0">Γενικά</Item>
+				<Item EnumName="User" ListIndex="1">Χρήστη</Item>
+				<Item EnumName="Subfunction" ListIndex="2">Υπο-Ενότητα</Item>
+			</cmbLevel>
+			<cmbComplexity>
+				<Item EnumName="Low" ListIndex="0">Χαμηλή</Item>
+				<Item EnumName="Medium" ListIndex="1">Μεσαία</Item>
+				<Item EnumName="High" ListIndex="2">Υψηλή</Item>
+			</cmbComplexity>
+			<cmbStatus>
+				<Item EnumName="Named" ListIndex="0">Δημιουργήθηκε</Item>
+				<Item EnumName="Initial" ListIndex="1">Αρχικοποιήθηκε</Item>
+				<Item EnumName="Base" ListIndex="2">Base</Item>
+				<Item EnumName="Completed" ListIndex="3">Ολοκληρώθηκε</Item>
+				<Item EnumName="Deferred" ListIndex="4">Αναβληθέν</Item>
+				<Item EnumName="Tested" ListIndex="5">Tested</Item>
+				<Item EnumName="Approved" ListIndex="6">Εκγεκριμένο</Item>
+			</cmbStatus>
+			<cmbImplementation>
+				<Item EnumName="Scheduled" ListIndex="0">Δημιουργήθηκε</Item>
+				<Item EnumName="Started" ListIndex="1">Αρχικοποιήθηκε</Item>
+				<Item EnumName="Partial" ListIndex="2">Base</Item>
+				<Item EnumName="Completed" ListIndex="3">Ολοκληρώθηκε</Item>
+				<Item EnumName="Deferred" ListIndex="4">Αναβληθέν</Item>
+			</cmbImplementation>
+			<!-- Use Case General -->
+			<pgUCGeneral>Γενικά</pgUCGeneral>
+			<lblUCIDTitle>Identifier</lblUCIDTitle>
+			<lblUCOwnerTitle>Owner package</lblUCOwnerTitle>
+			<lblUCNameTitle>Όνομα</lblUCNameTitle>
+			<btnUCNameChange>Αλλαγή</btnUCNameChange>
+			<lblPreconditionsTitle>ΣυνθήκεςΕισόδου</lblPreconditionsTitle>
+			<lblPostconditionsTitle>Συνθήκες Εξόδου</lblPostconditionsTitle>
+			<lblUCActorsTitle>Χαρακτήρες</lblUCActorsTitle>
+			<chActorName>Όνομα</chActorName>
+			<chActorPrimary>Πρωτεύων</chActorPrimary>
+			<btnAddActor>Προσθήκη</btnAddActor>
+			<btnRemoveActor>Αφαίρεση</btnRemoveActor>
+			<btnSetPrimaryActor>Πρωτεύων</btnSetPrimaryActor>
+			<lblTriggerEventTitle>Trigger event</lblTriggerEventTitle>
+			<lblTriggerDescriptionTitle>Trigger description</lblTriggerDescriptionTitle>
+			<cmbTriggerEvent>
+				<Item EnumName="External" ListIndex="0">External</Item>
+				<Item EnumName="Temporal" ListIndex="1">Temporal</Item>
+				<Item EnumName="Internal" ListIndex="2">Internal</Item>
+			</cmbTriggerEvent>
+			<!-- End of 2.0.0 section -->			
+			<!-- Actor General -->
+			<pgAGeneral>Γενικά</pgAGeneral>
+			<lblAIDTitle>Identifier</lblAIDTitle>
+			<lblAOwnerTitle>Owner package</lblAOwnerTitle>
+			<lblANameTitle>Όνομα</lblANameTitle>
+			<btnANameChange>Αλλαγή</btnANameChange>
+			<!-- Start of 0.9.6 section -->
+			<lblAGoalsTitle>Goals</lblAGoalsTitle>
+			<btnAddGoal>Προσθήκη</btnAddGoal>
+			<btnRemoveGoal>Αφαίρεση</btnRemoveGoal>
+			<!-- End of 0.9.6 section -->
+			<!-- Package General -->
+			<pgPGeneral>Γενικά</pgPGeneral>
+			<lblPIDTitle>Identifier</lblPIDTitle>
+			<lblPOwnerTitle>Owner package</lblPOwnerTitle>
+			<lblPNameTitle>Όνομα</lblPNameTitle>
+			<btnPNameChange>Αλλαγή</btnPNameChange>
+			<!-- Start of 2.0.0 section -->
+			<lblAuthorTitle>Δημιουργός</lblAuthorTitle>
+			<lblCompanyTitle>Εταιρεία</lblCompanyTitle>
+			<lblModelReleaseTitle>Έκδοση</lblModelReleaseTitle>
+			<lblCreationDateTitle>Ημερομηνία Δημιουργίας</lblCreationDateTitle>
+			<!-- End of 2.0.0 section -->
+			<!-- Attributes -->
+			<pgAttributes>Ιδιότητες</pgAttributes>
+			<lblDescriptionTitle>Περιγραφή</lblDescriptionTitle>
+			<lblNotesTitle>Σημειώσεις</lblNotesTitle>
+			<lblRelatedDocsTitle>Σχετικά Έγγραφα</lblRelatedDocsTitle>
+			<btnAddRelatedDoc>Προσθήκη</btnAddRelatedDoc>
+			<btnRemoveRelatedDoc>Αφαίρεση</btnRemoveRelatedDoc>
+			<btnOpenRelatedDoc>Άνοιγμα</btnOpenRelatedDoc>
+			<!-- Flow of events -->
+			<pgFlowOfEvents>Ροή Γεγονότων</pgFlowOfEvents>
+			<lblStepsTitle>Βήματα</lblStepsTitle>
+			<btnAddStep>Προσθήκη</btnAddStep>
+			<btnInsertStep>Εισαγωγή</btnInsertStep>
+			<!-- Start of 2.0.0 section -->
+			<btnAddSubStep>Προσθήκη υπό-βήματος</btnAddSubStep>
+			<!-- End of 2.0.0 section -->
+			<btnAddAltStep>Προσθήκη Εναλλακτικού</btnAddAltStep>
+			<!-- Start of 0.9.6 section -->
+			<!-- <btnInsertAltStep>Insert alternative</btnInsertAltStep> -->
+			<btnAddRefStep>Προσθήκη Εξάρτησης</btnAddRefStep>
+			<btnInsertRefStep>Εισαγωγή Εξάρτησης</btnInsertRefStep>
+			<!-- End of 0.9.6 section -->
+			<btnRemoveStep>Αφαίρεση</btnRemoveStep>
+			<!-- Prose -->
+			<pgProse>Πεζογραφία</pgProse>
+			<!-- Requirements -->
+			<pgRequirements>Απαιτήσεις</pgRequirements>
+			<btnAddRequirement>Προσθήκη</btnAddRequirement>
+			<!-- Start of 2.0.0 section -->
+			<btnShowReqDetails>Ανοικτές λεπτομέρειες</btnShowReqDetails>
+			<!-- End of 2.0.0 section -->
+			<btnRemoveRequirement>Αφαίρεση</btnRemoveRequirement>
+			<!-- History -->
+			<pgHistory>Ιστορικό</pgHistory>
+			<btnRemoveHistoryItem>Αφαίρεση</btnRemoveHistoryItem>
+			<chDate>Ημερομηνία</chDate>
+			<chType>Τύπος</chType>
+			<chAction>Ενέργεια</chAction>
+			<chNotes>Σημειώσεις</chNotes>
+			<!-- Glossary -->
+			<pgGlossary>Γλωσσάριο</pgGlossary>
+			<btnAddGlossaryItem>Προσθήκη</btnAddGlossaryItem>
+			<btnRemoveGlossaryItem>Αφαίρεση</btnRemoveGlossaryItem>
+			<btnChangeGlossaryItem>Αλλαγή</btnChangeGlossaryItem>
+			<!-- Start of 2.0.0 section -->
+			<!-- Stakeholders -->
+			<pgStakeholders>Συμμέτοχοι</pgStakeholders>
+			<btnAddStakeholder>Προσθήκη</btnAddStakeholder>
+			<btnRemoveStakeholder>Αφαίρεση</btnRemoveStakeholder>
+			<btnChangeStakeholder>Αλλαγή</btnChangeStakeholder>
+			<!-- End of 2.0.0 section -->
+		</Controls>
+	</frmTabView>
+	<!-- Form completely removed -->
+	<!-- <frmActorChooser>
+		<Controls>
+			<Self>Λίστα Χαρακτήρων</Self>
+			<lblChooseActorTitle>Επιλέξτε Χαρακτήρα</lblChooseActorTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmActorChooser> -->
+	<!-- End of 2.0.0 section -->
+	<frmCreator>
+		<Controls>
+			<Self>Δημιουργία Στοχείου</Self>
+			<lblNameTitle>Όνομα Στοιχείου</lblNameTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmCreator>
+	<frmDeleter>
+		<Controls>
+			<Self>Διαγραφή Στοιχείου</Self>
+			<lblUserQuestionTitle>Το επιλεγμένο στοιχείο (και τα σχετικά παιδιά) θα διαγραφούν. 
+			Συνέχεια;</lblUserQuestionTitle>
+			<cbDontMark>Μην χαρακτηρίσετε τα περιστατικά όπως {όνομα στοιχείου }</cbDontMark>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>			
+		</Controls>
+	</frmDeleter>
+	<frmNameChanger>
+		<Controls>
+			<Self>Μετονομασία Στοιχείου</Self>
+			<lblOldNameTitle>Υπάρχων Όνομα</lblOldNameTitle>
+			<lblNewNameTitle>Νέο Όνομα</lblNewNameTitle>
+			<cbNoReplace>Don't replace occurrences</cbNoReplace>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>			
+		</Controls>	
+	</frmNameChanger>	
+	<frmHistoryNotes>
+		<Controls>
+			<Self>Σημειώσεις Ιστορικού</Self>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>			
+		</Controls>
+	</frmHistoryNotes>
+	<frmOptions>
+		<Controls>
+			<Self>Επιλογές</Self>
+			<pgOptLanguages>Διαθέσιμες Γλώσσες</pgOptLanguages>
+			<lblSelectLanguageTitle>Επιλέξτε την διαθέσιμη γλώσσα</lblSelectLanguageTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmOptions>
+	<!-- Start of 0.9.6 section	-->
+	<frmReorder>
+		<Controls>
+			<Self>Επαναταξινόμηση Αντικειμένων</Self>
+			<btnMoveUp>Μετακίνηση επάνω</btnMoveUp>
+			<btnMoveDown>Μετακίνηση κάτω</btnMoveDown>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmReorder>
+	<frmRefSelector>
+		<Controls>
+			<Self>Εξάρτηση Σεναρίων Χρήσης</Self>
+			<lblStereotypeTitle>Στερεότυπο</lblStereotypeTitle>
+			<!-- Start of 2.0.0 section	-->
+			<!-- <lblUseCaseTitle>Σενάριο Χρήσης</lblUseCaseTitle> -->
+			<btnSelectUseCase>Επιλέξτε Σενάριο Χρήσης</btnSelectUseCase>
+			<!-- End of 2.0.0 section -->			
+			<gbRelationship>Σχέση</gbRelationship>
+			<lblDepFromTitle>Εξαρτάται από</lblDepFromTitle>
+			<btnSwap>Ανταλλαγή</btnSwap>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmRefSelector>
+	<!-- End of 0.9.6 section -->
+	<!-- Start of 2.0.0 section	-->
+	<frmSearchReplace>
+		<Controls>
+			<Self>Αναζήτηση και Αντικατάσταση</Self>
+			<gbOptions>Επιλογές</gbOptions>
+			<lblSearch>Αναζήτηση</lblSearch>
+			<lblReplace>Αντικατάσταση</lblReplace>
+			<cbWholeWords>Ολόκληρες λέξεις μόνο</cbWholeWords>
+			<cbCaseSensitivity>Ευαισθησία στα Κεφαλαία</cbCaseSensitivity>
+			<cbElementOnly>Ενεργό παράθυρο στοιχείων μόνο</cbElementOnly>
+			<btnSearch>Έναρξη Αναζήτησης</btnSearch>
+			<btnSearchAgain>Αναζήτη Πάλι</btnSearchAgain>
+			<btnReplace>Αντικατάσταση</btnReplace>
+			<btnReplaceAll>Αντικατάσταση όλων</btnReplaceAll>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmSearchReplace>
+	<frmChooser>
+		<Controls>
+			<Self>Επιλογή Στοιχείου</Self>
+			<lblElementSelectedTitle>Στοιχείο επιλέχθηκε</lblElementSelectedTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmChooser>
+	<frmNameListChooser>
+		<Controls>
+			<Self>Κατάλογος διαθέσιμων ονομάτων</Self>
+			<lblChooseNameTitle>Επιλογή ονόματος</lblChooseNameTitle>
+			<btnOK>OK</btnOK>
+			<btnCancel>Ακύρωση</btnCancel>
+		</Controls>
+	</frmNameListChooser>
+	<frmRequirementEditor>
+		<Controls>
+			<Self>Συντάκτης απαίτησης</Self>
+			<!-- Tab pages -->
+			<!-- Details -->
+			<pgDetails>Λεπτομέρειες</pgDetails>
+			<lblProposedByTitle>Προτεινόμενο από</lblProposedByTitle>
+			<lblBenefitToTitle>Benefit to</lblBenefitToTitle>
+			<lblCategoryTitle>Κατηγορία</lblCategoryTitle>
+			<lblImportanceTitle>Σπουδαιότητα</lblImportanceTitle>
+			<lblStatusTitle>Κατάσταση</lblStatusTitle>
+			<lblAcceptanceStatusTitle>Θέση αποδοχής</lblAcceptanceStatusTitle>
+			<lblMappedOntoUCsTitle>Αντιστοίχιση σε Σενάρια Χρήσης</lblMappedOntoUCsTitle>
+			<btnAddPBStakeholder>Προσθήκη</btnAddPBStakeholder>
+			<btnRemovePBStakeholder>Αφαίρεση</btnRemovePBStakeholder>
+			<btnAddBTStakeholder>Προσθήκη</btnAddBTStakeholder>
+			<btnRemoveBTStakeholder>Αφαίρεση</btnRemoveBTStakeholder>
+			<btnStatusToHistory ref_form="frmTabView" ref_control="btnStatusToHistory"/>
+			<btnAcceptToHistory>Προσθήκη στο Ιστορικό</btnAcceptToHistory>
+			<btnAddMappedUC>Προσθήκη</btnAddMappedUC>
+			<btnRemoveMappedUC>Αφαίρεση</btnRemoveMappedUC>
+			<btnGoToDefinition>Πήγαινε στον καθορισμό</btnGoToDefinition>
+			<cmbCategory>
+				<Item EnumName="Functional" ListIndex="0">Λειτουργικό</Item>
+				<Item EnumName="NonFunctional" ListIndex="1">Μη-Λειτουργικό</Item>
+			</cmbCategory>
+			<cmbImportance>
+				<Item EnumName="MustHave" ListIndex="0">Πρέπει να έχετε</Item>
+				<Item EnumName="ShouldHave" ListIndex="1">Θα έπρεπε να έχετε </Item>
+				<Item EnumName="NiceToHave" ListIndex="2">Θα ήταν καλό να έχετε</Item>
+			</cmbImportance>
+			<cmbStatus ref_form="frmTabView" ref_control="cmbStatus"/>
+			<cmbAcceptanceStatus>
+				<Item EnumName="Proposed" ListIndex="0">Προτεινόμενο</Item>
+				<Item EnumName="Evaluating" ListIndex="1">Αξιολόγηση</Item>
+				<Item EnumName="Accepted" ListIndex="2">Αποδοχή</Item>
+				<Item EnumName="Refused" ListIndex="3">Απορριπτόμενο</Item>
+				<Item EnumName="Cancelled" ListIndex="4">Ακυρωμένο</Item>
+				<Item EnumName="Conflictual" ListIndex="5">Συγκρουόμενο</Item>
+			</cmbAcceptanceStatus>
+			<!-- History -->
+			<pgHistory ref_form="frmTabView" ref_control="pgHistory"/>
+			<btnRemoveHistoryItem ref_form="frmTabView" ref_control="btnRemoveHistoryItem"/>
+			<chDate ref_form="frmTabView" ref_control="chDate"/>
+			<chType ref_form="frmTabView" ref_control="chType"/>
+			<chAction ref_form="frmTabView" ref_control="chAction"/>
+			<chNotes ref_form="frmTabView" ref_control="chNotes"/>
+			<!-- Other controls -->
+			<btnOK>OK</btnOK>
+		</Controls>
+	</frmRequirementEditor>
+	<!-- End of 2.0.0 section -->
+</UCM-StringTable>
