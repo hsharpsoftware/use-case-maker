@@ -29,17 +29,19 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <OldToolsVersion>2.0</OldToolsVersion>
     <TargetFrameworkProfile />
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <PublishUrl>..\..\publish\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://raw.githubusercontent.com/hsharpsoftware/use-case-maker/master/publish/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/hsharpsoftware/use-case-maker/master/publish/</UpdateUrl>
     <SupportUrl>https://github.com/hsharpsoftware/use-case-maker/issues</SupportUrl>
     <ErrorReportUrl>https://github.com/hsharpsoftware/use-case-maker</ErrorReportUrl>
     <ProductName>Use Case Maker</ProductName>
