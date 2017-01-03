@@ -3405,7 +3405,7 @@ namespace UseCaseMaker
 					dstElement = model.FindElementByUniqueID((String)dstNode.Tag);
 
 					// Sorgente e destinazione sono lo stesso elemento
-					if(((IIdentificableObject)dstElement).UniqueID ==
+					if(srcElement!=null && dstElement!=null && ((IIdentificableObject)dstElement).UniqueID ==
 						((IIdentificableObject)srcElement).UniqueID)
 					{
 						mnuEditPaste.Enabled = false;;
@@ -3413,29 +3413,29 @@ namespace UseCaseMaker
 
 					if(dstElement.GetType() == typeof(Package) || dstElement.GetType() == typeof(Model))
 					{
-						if(srcElement.GetType() == typeof(Package))
+						if(srcElement != null && srcElement.GetType() == typeof(Package))
 						{
 							mnuEditPaste.Enabled = true;
 						}
 					}
 					else if(dstElement.GetType() == typeof(Actors))
 					{
-						if(srcElement.GetType() == typeof(Actors))
+						if(srcElement != null && srcElement.GetType() == typeof(Actors))
 						{
 							mnuEditPaste.Enabled = true;
 						}
-						if(srcElement.GetType() == typeof(Actor))
+						if(srcElement != null && srcElement.GetType() == typeof(Actor))
 						{
 							mnuEditPaste.Enabled = true;
 						}
 					}
 					else if(dstElement.GetType() == typeof(UseCases))
 					{
-						if(srcElement.GetType() == typeof(UseCases))
+						if(srcElement != null && srcElement.GetType() == typeof(UseCases))
 						{
 							mnuEditPaste.Enabled = true;
 						}
-						if(srcElement.GetType() == typeof(UseCase))
+						if(srcElement != null && srcElement.GetType() == typeof(UseCase))
 						{
 							mnuEditPaste.Enabled = true;
 						}
