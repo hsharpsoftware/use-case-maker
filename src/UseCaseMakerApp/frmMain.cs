@@ -2430,11 +2430,11 @@ namespace UseCaseMaker
 			{
 				LocalizeControls(this.appSettings.UILanguageFilePath);
 			}
-			catch(Exception)
+			catch(Exception ex)
 			{
 				MessageBox.Show(
 					this,
-					"Cannot load the localization file!",
+					String.Format("Cannot load the localization file {0}\n[{1}]!", this.appSettings.UILanguageFilePath, ex.ToString()),
 					Application.ProductName,
 					MessageBoxButtons.OK,
 					MessageBoxIcon.Warning);

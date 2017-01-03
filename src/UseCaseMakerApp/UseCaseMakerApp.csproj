@@ -42,7 +42,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/hsharpsoftware/use-case-maker/master/publish/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/hsharpsoftware/use-case-maker/master/publish/</UpdateUrl>
-    <SupportUrl>https://github.com/hsharpsoftware/use-case-maker/issues</SupportUrl>
+    <SupportUrl>https://github.com/hsharpsoftware/use-case-maker</SupportUrl>
     <ErrorReportUrl>https://github.com/hsharpsoftware/use-case-maker</ErrorReportUrl>
     <ProductName>Use Case Maker</ProductName>
     <PublisherName>Sync.Today Ltd.</PublisherName>
