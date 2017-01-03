@@ -213,7 +213,7 @@
 			</cmbComplexity>
 			<cmbStatus>
 				<Item EnumName="Named" ListIndex="0">Created</Item>
-				<Item EnumName="Initial" ListIndex="1">Initied</Item>
+				<Item EnumName="Initial" ListIndex="1">Initial</Item>
 				<Item EnumName="Base" ListIndex="2">Base</Item>
 				<Item EnumName="Completed" ListIndex="3">Completed</Item>
 				<Item EnumName="Deferred" ListIndex="4">Deferred</Item>
