@@ -765,7 +765,7 @@ namespace UseCaseMakerControls
 			}
 			SelectionStart = Math.Max(curTokenStartIndex, 0);
 			SelectionLength = Math.Max(0,curTokenEndIndex - curTokenStartIndex);
-			if(SelectedText[0] != '\"')
+			if(SelectedText.Length > 0 && SelectedText[0] != '\"')
 			{
 				SelectedText = "\"";
 			}
