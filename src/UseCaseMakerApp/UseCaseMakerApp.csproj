@@ -47,7 +47,7 @@
     <ProductName>Use Case Maker</ProductName>
     <PublisherName>Sync.Today Ltd.</PublisherName>
     <SuiteName>H# Software Tools</SuiteName>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>0.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
