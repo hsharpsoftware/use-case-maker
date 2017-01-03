@@ -30,10 +30,16 @@ namespace UseCaseMaker
         private Label lblDockPanelSuite;
         private Label label3;
         private Label lblUCMVersion;
-		/// <summary>
-		/// Variabile di progettazione necessaria.
-		/// </summary>
-		private System.ComponentModel.Container components = null;
+        private Label label2;
+        private LinkLabel linkLabel1;
+        private LinkLabel linkLabel2;
+        private Label label4;
+        private Label label5;
+
+        /// <summary>
+        /// Variabile di progettazione necessaria.
+        /// </summary>
+        private System.ComponentModel.Container components = null;
 
 		public frmAbout(bool isSplash)
 		{
@@ -45,7 +51,9 @@ namespace UseCaseMaker
 			//
 			// TODO: aggiungere il codice del costruttore dopo la chiamata a InitializeComponent
 			//
-			lblUCMVersion.Text = Application.ProductVersion;
+			lblUCMVersion.Text = 
+                String.Format( "{0} build {1}",
+                    Application.ProductVersion, RetrieveLinkerTimestamp());
 			if(isSplash)
 			{
 				btnOK.Visible = false;
@@ -94,12 +102,22 @@ namespace UseCaseMaker
             this.lblUCMAuthorName = new System.Windows.Forms.Label();
             this.lblUCMAuthorTitle = new System.Windows.Forms.Label();
             this.lblUCMVersion = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.pnlSep1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlSep1
             // 
             this.pnlSep1.BackColor = System.Drawing.Color.DarkOrange;
+            this.pnlSep1.Controls.Add(this.linkLabel2);
+            this.pnlSep1.Controls.Add(this.label4);
+            this.pnlSep1.Controls.Add(this.label5);
+            this.pnlSep1.Controls.Add(this.label2);
+            this.pnlSep1.Controls.Add(this.linkLabel1);
             this.pnlSep1.Controls.Add(this.btnOK);
             this.pnlSep1.Controls.Add(this.lnkLblDockPanelSuite);
             this.pnlSep1.Controls.Add(this.lblDockPanelSuite);
@@ -125,9 +143,10 @@ namespace UseCaseMaker
             // btnOK
             // 
             this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnOK.Location = new System.Drawing.Point(416, 124);
+            this.btnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnOK.Location = new System.Drawing.Point(231, 147);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.Size = new System.Drawing.Size(75, 15);
             this.btnOK.TabIndex = 0;
             this.btnOK.Text = "OK";
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
@@ -138,13 +157,13 @@ namespace UseCaseMaker
             this.lnkLblDockPanelSuite.BackColor = System.Drawing.Color.Transparent;
             this.lnkLblDockPanelSuite.DisabledLinkColor = System.Drawing.Color.White;
             this.lnkLblDockPanelSuite.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lnkLblDockPanelSuite.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLblDockPanelSuite.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkLblDockPanelSuite.ForeColor = System.Drawing.Color.Black;
             this.lnkLblDockPanelSuite.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lnkLblDockPanelSuite.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
             this.lnkLblDockPanelSuite.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.lnkLblDockPanelSuite.LinkColor = System.Drawing.Color.Black;
-            this.lnkLblDockPanelSuite.Location = new System.Drawing.Point(24, 140);
+            this.lnkLblDockPanelSuite.Location = new System.Drawing.Point(24, 128);
             this.lnkLblDockPanelSuite.Name = "lnkLblDockPanelSuite";
             this.lnkLblDockPanelSuite.Size = new System.Drawing.Size(234, 16);
             this.lnkLblDockPanelSuite.TabIndex = 29;
@@ -157,10 +176,10 @@ namespace UseCaseMaker
             // lblDockPanelSuite
             // 
             this.lblDockPanelSuite.BackColor = System.Drawing.Color.Transparent;
-            this.lblDockPanelSuite.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDockPanelSuite.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDockPanelSuite.ForeColor = System.Drawing.Color.White;
             this.lblDockPanelSuite.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblDockPanelSuite.Location = new System.Drawing.Point(70, 124);
+            this.lblDockPanelSuite.Location = new System.Drawing.Point(70, 112);
             this.lblDockPanelSuite.Name = "lblDockPanelSuite";
             this.lblDockPanelSuite.Size = new System.Drawing.Size(160, 16);
             this.lblDockPanelSuite.TabIndex = 28;
@@ -172,7 +191,7 @@ namespace UseCaseMaker
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(16, 124);
+            this.label3.Location = new System.Drawing.Point(16, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 16);
             this.label3.TabIndex = 27;
@@ -184,13 +203,13 @@ namespace UseCaseMaker
             this.lnkLblITextSharp.BackColor = System.Drawing.Color.Transparent;
             this.lnkLblITextSharp.DisabledLinkColor = System.Drawing.Color.White;
             this.lnkLblITextSharp.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lnkLblITextSharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLblITextSharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkLblITextSharp.ForeColor = System.Drawing.Color.Black;
             this.lnkLblITextSharp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lnkLblITextSharp.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
             this.lnkLblITextSharp.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.lnkLblITextSharp.LinkColor = System.Drawing.Color.Black;
-            this.lnkLblITextSharp.Location = new System.Drawing.Point(26, 105);
+            this.lnkLblITextSharp.Location = new System.Drawing.Point(26, 93);
             this.lnkLblITextSharp.Name = "lnkLblITextSharp";
             this.lnkLblITextSharp.Size = new System.Drawing.Size(234, 16);
             this.lnkLblITextSharp.TabIndex = 26;
@@ -203,10 +222,10 @@ namespace UseCaseMaker
             // lblITextSharp
             // 
             this.lblITextSharp.BackColor = System.Drawing.Color.Transparent;
-            this.lblITextSharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblITextSharp.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblITextSharp.ForeColor = System.Drawing.Color.White;
             this.lblITextSharp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblITextSharp.Location = new System.Drawing.Point(70, 89);
+            this.lblITextSharp.Location = new System.Drawing.Point(70, 77);
             this.lblITextSharp.Name = "lblITextSharp";
             this.lblITextSharp.Size = new System.Drawing.Size(160, 16);
             this.lblITextSharp.TabIndex = 25;
@@ -218,7 +237,7 @@ namespace UseCaseMaker
             this.lblThanks1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThanks1.ForeColor = System.Drawing.Color.Black;
             this.lblThanks1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblThanks1.Location = new System.Drawing.Point(16, 89);
+            this.lblThanks1.Location = new System.Drawing.Point(16, 77);
             this.lblThanks1.Name = "lblThanks1";
             this.lblThanks1.Size = new System.Drawing.Size(48, 16);
             this.lblThanks1.TabIndex = 24;
@@ -227,7 +246,7 @@ namespace UseCaseMaker
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(264, 44);
@@ -242,7 +261,7 @@ namespace UseCaseMaker
             this.lnkLblLicenses.ActiveLinkColor = System.Drawing.Color.White;
             this.lnkLblLicenses.BackColor = System.Drawing.Color.Transparent;
             this.lnkLblLicenses.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lnkLblLicenses.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLblLicenses.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkLblLicenses.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lnkLblLicenses.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
             this.lnkLblLicenses.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
@@ -260,7 +279,7 @@ namespace UseCaseMaker
             // lblUCMWebSiteTitle
             // 
             this.lblUCMWebSiteTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblUCMWebSiteTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUCMWebSiteTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUCMWebSiteTitle.ForeColor = System.Drawing.Color.Black;
             this.lblUCMWebSiteTitle.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblUCMWebSiteTitle.Location = new System.Drawing.Point(264, 8);
@@ -274,7 +293,7 @@ namespace UseCaseMaker
             this.lnkLblUMCCredit1Mail.ActiveLinkColor = System.Drawing.Color.Black;
             this.lnkLblUMCCredit1Mail.BackColor = System.Drawing.Color.Transparent;
             this.lnkLblUMCCredit1Mail.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lnkLblUMCCredit1Mail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLblUMCCredit1Mail.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkLblUMCCredit1Mail.ForeColor = System.Drawing.Color.Black;
             this.lnkLblUMCCredit1Mail.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lnkLblUMCCredit1Mail.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
@@ -293,7 +312,7 @@ namespace UseCaseMaker
             // lblUCMCredit1Name
             // 
             this.lblUCMCredit1Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblUCMCredit1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUCMCredit1Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUCMCredit1Name.ForeColor = System.Drawing.Color.White;
             this.lblUCMCredit1Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblUCMCredit1Name.Location = new System.Drawing.Point(70, 44);
@@ -319,7 +338,7 @@ namespace UseCaseMaker
             this.lnkLblUCMWebSite.ActiveLinkColor = System.Drawing.Color.White;
             this.lnkLblUCMWebSite.BackColor = System.Drawing.Color.Transparent;
             this.lnkLblUCMWebSite.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lnkLblUCMWebSite.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLblUCMWebSite.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkLblUCMWebSite.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lnkLblUCMWebSite.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
             this.lnkLblUCMWebSite.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
@@ -339,7 +358,7 @@ namespace UseCaseMaker
             this.lnkLblUCMAuthorMail.ActiveLinkColor = System.Drawing.Color.Black;
             this.lnkLblUCMAuthorMail.BackColor = System.Drawing.Color.Transparent;
             this.lnkLblUCMAuthorMail.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.lnkLblUCMAuthorMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkLblUCMAuthorMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkLblUCMAuthorMail.ForeColor = System.Drawing.Color.Black;
             this.lnkLblUCMAuthorMail.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lnkLblUCMAuthorMail.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
@@ -358,7 +377,7 @@ namespace UseCaseMaker
             // lblUCMAuthorName
             // 
             this.lblUCMAuthorName.BackColor = System.Drawing.Color.Transparent;
-            this.lblUCMAuthorName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUCMAuthorName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUCMAuthorName.ForeColor = System.Drawing.Color.White;
             this.lblUCMAuthorName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblUCMAuthorName.Location = new System.Drawing.Point(70, 8);
@@ -370,7 +389,7 @@ namespace UseCaseMaker
             // lblUCMAuthorTitle
             // 
             this.lblUCMAuthorTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblUCMAuthorTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUCMAuthorTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUCMAuthorTitle.ForeColor = System.Drawing.Color.Black;
             this.lblUCMAuthorTitle.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblUCMAuthorTitle.Location = new System.Drawing.Point(16, 8);
@@ -386,10 +405,87 @@ namespace UseCaseMaker
             this.lblUCMVersion.ForeColor = System.Drawing.Color.White;
             this.lblUCMVersion.Location = new System.Drawing.Point(191, 73);
             this.lblUCMVersion.Name = "lblUCMVersion";
-            this.lblUCMVersion.Size = new System.Drawing.Size(116, 18);
+            this.lblUCMVersion.Size = new System.Drawing.Size(319, 18);
             this.lblUCMVersion.TabIndex = 15;
             this.lblUCMVersion.Text = "[0.0.0.0]";
             this.lblUCMVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(264, 77);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(216, 16);
+            this.label2.TabIndex = 31;
+            this.label2.Text = "Support:";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.White;
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.linkLabel1.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(272, 93);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(234, 16);
+            this.linkLabel1.TabIndex = 30;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "https://github.com/hsharpsoftware/use-case-maker";
+            this.linkLabel1.UseCompatibleTextRendering = true;
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.White;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.Black;
+            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.ForeColor = System.Drawing.Color.Black;
+            this.linkLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.linkLabel2.LinkArea = new System.Windows.Forms.LinkArea(0, 100);
+            this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel2.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel2.Location = new System.Drawing.Point(274, 128);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(234, 16);
+            this.linkLabel2.TabIndex = 34;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "hsharp@hsharp.software";
+            this.linkLabel2.UseCompatibleTextRendering = true;
+            this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label4.Location = new System.Drawing.Point(342, 112);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(160, 16);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "H# Software";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label5.Location = new System.Drawing.Point(266, 112);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 16);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "Maintained by:";
             // 
             // frmAbout
             // 
@@ -448,5 +544,52 @@ namespace UseCaseMaker
         {
             System.Diagnostics.Process.Start("http://sourceforge.net/projects/dockpanelsuite");
         }
-	}
+
+        private DateTime RetrieveLinkerTimestamp()
+        {
+            DateTime dt = new DateTime(1970, 1, 1, 0, 0, 0);
+            try
+            {
+                string filePath = System.Reflection.Assembly.GetCallingAssembly().Location;
+                const int c_PeHeaderOffset = 60;
+                const int c_LinkerTimestampOffset = 8;
+                byte[] b = new byte[2048];
+                System.IO.Stream s = null;
+
+                try
+                {
+                    s = new System.IO.FileStream(filePath, System.IO.FileMode.Open, System.IO.FileAccess.Read);
+                    s.Read(b, 0, 2048);
+                }
+                finally
+                {
+                    if (s != null)
+                    {
+                        s.Close();
+                    }
+                }
+
+                int i = System.BitConverter.ToInt32(b, c_PeHeaderOffset);
+                int secondsSince1970 = System.BitConverter.ToInt32(b, i + c_LinkerTimestampOffset);
+
+                dt = dt.AddSeconds(secondsSince1970);
+                dt = dt.AddHours(System.TimeZone.CurrentTimeZone.GetUtcOffset(dt).Hours);
+                return dt;
+            }
+            catch (System.Exception ex)
+            {
+                return dt;
+            }
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/hsharpsoftware/use-case-maker");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("mailto:hsharp@hsharp.software");            
+        }
+    }
 }
