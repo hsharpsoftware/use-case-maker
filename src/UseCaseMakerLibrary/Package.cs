@@ -437,7 +437,7 @@ namespace UseCaseMakerLibrary
 			String newNameEndTag,
 			Boolean deep)
 		{
-            String oldFullName = oldNameStartTag + @"\b" + oldName + @"\b" + oldNameEndTag;
+            String oldFullName = oldNameStartTag + @"\b" + oldName.Replace("[", "\\[").Replace("]", "\\]") + @"\b" + oldNameEndTag;
 			String newFullName = newNameStartTag + newName + newNameEndTag;
 
             Regex regex = new Regex(oldFullName, RegexOptions.None);
