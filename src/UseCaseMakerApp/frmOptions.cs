@@ -1,17 +1,14 @@
 using System;
-using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
 using System.Windows.Forms;
 using System.Xml;
 using System.IO;
 
 namespace UseCaseMaker
 {
-	/// <summary>
-	/// Descrizione di riepilogo per frmOptions.
-	/// </summary>
-	public class frmOptions : System.Windows.Forms.Form
+    /// <summary>
+    /// Descrizione di riepilogo per frmOptions.
+    /// </summary>
+    public class frmOptions : System.Windows.Forms.Form
 	{
 		private System.Windows.Forms.TabControl tabOptions;
 		private System.Windows.Forms.TabPage pgOptLanguages;

@@ -1,15 +1,11 @@
-using System;
-using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace UseCaseMaker
 {
-	/// <summary>
-	/// Descrizione di riepilogo per ModelExplorer.
-	/// </summary>
-	public class frmNameChanger : System.Windows.Forms.Form
+    /// <summary>
+    /// Descrizione di riepilogo per ModelExplorer.
+    /// </summary>
+    public class frmNameChanger : System.Windows.Forms.Form
 	{
 		private System.Windows.Forms.Label lblOldNameTitle;
 		public System.Windows.Forms.Label lblOldName;
