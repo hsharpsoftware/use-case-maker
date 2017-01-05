@@ -2,14 +2,13 @@ using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace UseCaseMakerControls
 {
-	/// <summary>
-	/// Descrizione di riepilogo per IndexedListItemCollection.
-	/// </summary>
-	public class IndexedListItemCollection : IList, ICollection, IEnumerable
+    /// <summary>
+    /// Descrizione di riepilogo per IndexedListItemCollection.
+    /// </summary>
+    public class IndexedListItemCollection : IList, ICollection, IEnumerable
 	{
 		#region Private Enumerators and Constants
 		#endregion

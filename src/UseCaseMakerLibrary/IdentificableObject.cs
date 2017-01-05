@@ -1,6 +1,5 @@
 using System;
 using System.Xml;
-using System.Xml.Schema;
 using System.Xml.Serialization;
 using UseCaseMakerLibrary.Support;
 

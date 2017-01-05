@@ -1,9 +1,8 @@
 using System;
-using System.Xml.Serialization;
 
 namespace UseCaseMakerLibrary
 {
-	/**
+    /**
 	 * @brief Descrizione di riepilogo per GlossaryItems.
 	 */
     [Serializable]

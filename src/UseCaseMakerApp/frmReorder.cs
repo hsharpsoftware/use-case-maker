@@ -1,16 +1,11 @@
-using System;
-using System.Drawing;
-using System.Collections;
-using System.Collections.Specialized;
-using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace UseCaseMaker
 {
-	/// <summary>
-	/// Descrizione di riepilogo per frmReorder.
-	/// </summary>
-	public class frmReorder : System.Windows.Forms.Form
+    /// <summary>
+    /// Descrizione di riepilogo per frmReorder.
+    /// </summary>
+    public class frmReorder : System.Windows.Forms.Form
 	{
 		private string prefix;
 

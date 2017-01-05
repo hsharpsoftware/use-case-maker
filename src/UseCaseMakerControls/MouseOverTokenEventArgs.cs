@@ -1,12 +1,11 @@
-using System;
 using System.Windows.Forms;
 
 namespace UseCaseMakerControls
 {
-	/// <summary>
-	/// Descrizione di riepilogo per MouseOverTokenEventArgs.
-	/// </summary>
-	public class MouseOverTokenEventArgs : MouseEventArgs
+    /// <summary>
+    /// Descrizione di riepilogo per MouseOverTokenEventArgs.
+    /// </summary>
+    public class MouseOverTokenEventArgs : MouseEventArgs
 	{
 		private string token = string.Empty;
 		private LinkEnabledRTB item = null;

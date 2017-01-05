@@ -2,16 +2,15 @@ using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
-using System.Data;
 using System.Windows.Forms;
 using System.Reflection;
 
 namespace UseCaseMakerControls
 {
-	/// <summary>
-	/// Descrizione di riepilogo per UserControl1.
-	/// </summary>
-	[ Bindable(true) ]
+    /// <summary>
+    /// Descrizione di riepilogo per UserControl1.
+    /// </summary>
+    [ Bindable(true) ]
 	public class IndexedList : System.Windows.Forms.Panel
 	{
 		#region Private Constants And Enumerators

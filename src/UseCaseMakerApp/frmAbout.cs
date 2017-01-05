@@ -1,15 +1,12 @@
 using System;
-using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace UseCaseMaker
 {
-	/// <summary>
-	/// Descrizione di riepilogo per frmAbout.
-	/// </summary>
-	public class frmAbout : System.Windows.Forms.Form
+    /// <summary>
+    /// Descrizione di riepilogo per frmAbout.
+    /// </summary>
+    public class frmAbout : System.Windows.Forms.Form
 	{
 		private System.Windows.Forms.Panel pnlSep1;
 		private System.Windows.Forms.Label label1;

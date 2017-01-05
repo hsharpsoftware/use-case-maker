@@ -1,15 +1,11 @@
-using System;
-using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace UseCaseMaker
 {
-	/// <summary>
-	/// Descrizione di riepilogo per ModelExplorer.
-	/// </summary>
-	public class frmCreator : System.Windows.Forms.Form
+    /// <summary>
+    /// Descrizione di riepilogo per ModelExplorer.
+    /// </summary>
+    public class frmCreator : System.Windows.Forms.Form
 	{
 		private Localizer localizer = null;
 		private System.Windows.Forms.Button btnOK;

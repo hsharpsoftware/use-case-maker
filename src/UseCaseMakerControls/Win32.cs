@@ -1,15 +1,14 @@
 using System;
-using System.Runtime;
 using System.Runtime.InteropServices;
 
 using HWND = System.IntPtr;
 
 namespace UseCaseMakerControls
 {
-	/// <summary>
-	/// Summary description for Win32.
-	/// </summary>
-	public class Win32
+    /// <summary>
+    /// Summary description for Win32.
+    /// </summary>
+    public class Win32
 	{
 		private Win32()
 		{

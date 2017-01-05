@@ -1,16 +1,13 @@
-using System;
-using System.Drawing;
 using System.Collections;
 using System.Collections.Specialized;
-using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace UseCaseMakerControls
 {
-	/// <summary>
-	/// Summary description for AutoCompleteForm.
-	/// </summary>
-	public class AutoCompleteForm : System.Windows.Forms.Form
+    /// <summary>
+    /// Summary description for AutoCompleteForm.
+    /// </summary>
+    public class AutoCompleteForm : System.Windows.Forms.Form
 	{
 		private StringCollection items = new StringCollection();
 		private System.Windows.Forms.Button border;

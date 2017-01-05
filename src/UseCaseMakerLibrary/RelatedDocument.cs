@@ -1,11 +1,10 @@
 using System;
-using System.Xml.Serialization;
 
 namespace UseCaseMakerLibrary
 {
-	/// <summary>
-	/// Descrizione di riepilogo per RelatedDocument.
-	/// </summary>
+    /// <summary>
+    /// Descrizione di riepilogo per RelatedDocument.
+    /// </summary>
     [Serializable]
 	public class RelatedDocument
 	{

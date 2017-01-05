@@ -1,16 +1,13 @@
-   using System;
-using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
+using System;
 using System.Windows.Forms;
 using UseCaseMakerLibrary;
 
 namespace UseCaseMaker
 {
-	/// <summary>
-	/// Descrizione di riepilogo per frmRefSelector.
-	/// </summary>
-	public class frmRefSelector : System.Windows.Forms.Form
+    /// <summary>
+    /// Descrizione di riepilogo per frmRefSelector.
+    /// </summary>
+    public class frmRefSelector : System.Windows.Forms.Form
 	{
 		private Model model;
 		private UseCase caller;

@@ -3,12 +3,10 @@ using System.ComponentModel;
 using System.Collections;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Text;
-using System.Runtime.InteropServices;
 
 namespace UseCaseMakerControls
 {
-	public class LinkEnabledRTB : RichTextBox
+    public class LinkEnabledRTB : RichTextBox
 	{
 		#region Members
 		//Members exposed via properties
