@@ -11,6 +11,7 @@ using System.Globalization;
 using iTextSharp.text;
 using iTextSharp.text.rtf;
 using iTextSharp.text.xml;
+using iTextSharp.text.rtf.headerfooter;
 
 namespace UseCaseMaker
 {
@@ -153,7 +154,7 @@ namespace UseCaseMaker
 			RtfWriter2 writer = RtfWriter2.GetInstance(document, ms);
 
             footerPhrase = new Phrase("",new iTextSharp.text.Font(iTextSharp.text.Font.HELVETICA,8));
-            RtfHeaderFooter footer = new RtfHeaderFooter(footerPhrase,true);
+            RtfHeaderFooter footer = new RtfHeaderFooter(footerPhrase);
             footer.SetAlignment("center");
             writer.Footer = footer;
 			
@@ -161,7 +162,7 @@ namespace UseCaseMaker
 			headerPhrase = new Phrase(
 				"Use Case Maker " + an.Version.ToString(3),
 				new iTextSharp.text.Font(iTextSharp.text.Font.HELVETICA,8));
-			RtfHeaderFooter header = new RtfHeaderFooter(headerPhrase,false);
+			RtfHeaderFooter header = new RtfHeaderFooter(headerPhrase);
 			header.SetAlignment("right");
 			writer.Header = header;
 

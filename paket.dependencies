@@ -8,6 +8,7 @@ group Build
   nuget SourceLink.Fake
   nuget FAKE
   nuget FSharp.Formatting
+  nuget RedGate.iTextSharp
 
   github fsharp/FAKE modules/Octokit/Octokit.fsx
 
