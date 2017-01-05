@@ -1,10 +1,7 @@
 using System;
 using System.Drawing;
-using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
-using System.Data;
-using System.Runtime.InteropServices;
 using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
@@ -20,10 +17,10 @@ using WeifenLuo.WinFormsUI.Docking;
 
 namespace UseCaseMaker
 {
-	/**
+    /**
 	 * @brief Finestra principale
 	 */
-	public class frmMain : System.Windows.Forms.Form
+    public class frmMain : System.Windows.Forms.Form
 	{
 		public const string defaultUCPrefix = "UC";
         public const string defaultPPrefix = "P";
