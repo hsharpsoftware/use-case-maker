@@ -130,6 +130,10 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
+    <ProjectReference Include="..\IUseCaseMakerAddins\IUseCaseMakerAddins.fsproj">
+      <Project>{3ce824c9-7a48-4717-9e25-06bd2532ed8f}</Project>
+      <Name>IUseCaseMakerAddins</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UseCaseMakerControls\UseCaseMakerControls.csproj">
       <Name>UseCaseMakerControls</Name>
       <Project>{08BAF1B1-10D0-4426-BC09-C56C98AA5A6A}</Project>

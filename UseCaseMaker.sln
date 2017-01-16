@@ -43,6 +43,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UseCaseMaker.Tests", "tests
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "UseCaseMakerSetup", "src\UseCaseMakerSetup\UseCaseMakerSetup.wixproj", "{AA32F094-3B8D-4C42-8078-5AE6DE04F678}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IUseCaseMakerAddins", "src\IUseCaseMakerAddins\IUseCaseMakerAddins.fsproj", "{3CE824C9-7A48-4717-9E25-06BD2532ED8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,14 @@ Global
 		{AA32F094-3B8D-4C42-8078-5AE6DE04F678}.Release|Any CPU.ActiveCfg = Release|x86
 		{AA32F094-3B8D-4C42-8078-5AE6DE04F678}.Release|x86.ActiveCfg = Release|x86
 		{AA32F094-3B8D-4C42-8078-5AE6DE04F678}.Release|x86.Build.0 = Release|x86
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Debug|x86.Build.0 = Debug|Any CPU
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Release|x86.ActiveCfg = Release|Any CPU
+		{3CE824C9-7A48-4717-9E25-06BD2532ED8F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
