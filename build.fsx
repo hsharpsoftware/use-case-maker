@@ -380,6 +380,7 @@ Target "All" DoNothing
   ==> "Build"
   ==> "CopyBinaries"
   ==> "RunTests"
+#if DOCSANDNUGET
   ==> "GenerateReferenceDocs"
   ==> "GenerateDocs"
 #if MONO
@@ -388,6 +389,7 @@ Target "All" DoNothing
 #endif
   ==> "NuGet"
   ==> "BuildPackage"
+#endif
   ==> "All"
   =?> ("ReleaseDocs",isLocalBuild)
 
