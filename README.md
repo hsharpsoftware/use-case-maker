@@ -11,6 +11,6 @@ Clone of [Use Case Maker SourceForge repository](http://use-case-maker.sourcefor
 
 This repository is maintained by [David Podhola](http://david.podhola.net) (`@davidpodhola`)
 
-[![.NET Build Status](https://img.shields.io/appveyor/ci/fsgit/ProjectScaffold/master.svg)](https://ci.appveyor.com/project/fsgit/projectscaffold)
+[![Build status](https://ci.appveyor.com/api/projects/status/5b6a4xjveafhnwbr/branch/master?svg=true)](https://ci.appveyor.com/project/davidpodhola/use-case-maker/branch/master)
 
 ![Installation](https://cloud.githubusercontent.com/assets/436605/21646449/8b7e65b2-d296-11e6-9627-281ed29fb7a3.gif)
